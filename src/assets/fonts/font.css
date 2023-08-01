@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'cigra';
+    src: local('cigra'),
+     url('../../assets/fonts/cigra.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'newyork';
+    src: local('newyork'),
+     url('../../assets/fonts/newyork.otf') format('otf');
+}
