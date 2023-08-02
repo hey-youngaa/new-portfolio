@@ -7,6 +7,7 @@
 
 .studyWrapper{
     position: relative;
+    margin: 30px;
 }
 
 .studyWrapper img{
@@ -20,13 +21,15 @@
 .case-title{
     position: absolute;
     top:0; left: 0; bottom: 0; right: 0;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(29,106,154,0.72);
+    background-color: rgba(248,239,230,0.52);
     color: black;
     visibility: hidden;
     opacity: 0;
+    transition: opacity .2s, visibility .2s;
 }
 
 .studyWrapper:hover .case-title{

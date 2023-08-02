@@ -8,10 +8,12 @@ function Work() {
       <div className="studiesContainer">
         {Projects.map((item) => {
           return(
-            <div className="studyWrapper">
-              <img src={item.cover} alt="" />
-              <h2 className={item.cName}> {item.title} </h2>
-            </div>
+            <a href={item.pdf} target='_blank' rel='noreferrer' >
+              <div className="studyWrapper">
+                <img src={item.cover} alt="" />
+                <h1 className={item.cName}> {item.title} </h1>
+              </div>
+            </a>
           )
         })}
       </div>
