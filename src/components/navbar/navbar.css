@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
-    height: 64px;
+    padding: 0 80px;
+    height: 80px;
     z-index: 1;
+    border-bottom: 2px solid black;
 }
 
 .logo{
@@ -12,14 +13,14 @@
     color: black;
 }
 
-.logo > h1{
-    font-family: cigra;
+.logo img{
+    width: 60px;
 }
 
 .rightNav{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: right;
 }
 
 .rightNav li{
@@ -30,15 +31,11 @@
 }
 
 .nav-links{
-    font-family: cigra;
     text-decoration: none;
     color: black;
     transition: 0.3s ease-in-out;
 }
 
-.nav-links:hover{
-    
-}
 
 @media screen and (max-width: 850px){
 

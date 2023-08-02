@@ -20,5 +20,21 @@ video{
     color: black;
     font-size: 100px;
     margin-top: -100;
-    font-family: cigra;
+    padding-top: 10%;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.social-links img{
+    height: 30px;
+    width: auto;
 }

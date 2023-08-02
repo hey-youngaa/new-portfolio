@@ -1,11 +1,17 @@
 @font-face {
     font-family: 'cigra';
     src: local('cigra'),
-     url('../../assets/fonts/cigra.ttf') format('ttf');
+     url('cigra.ttf') format('ttf');
 }
 
 @font-face {
-    font-family: 'newyork';
+    font-family: 'New York';
     src: local('newyork'),
-     url('../../assets/fonts/newyork.otf') format('otf');
+     url('newYork.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Blue Ocean';
+    src: local('Blue Ocean'),
+     url('blueOcean.ttf') format('ttf');
 }

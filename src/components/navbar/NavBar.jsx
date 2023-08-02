@@ -1,17 +1,18 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './navbar.css'
 import {NavItems} from '../../assets/data/Data'
 import { Link } from 'react-router-dom'
-import {CgMenu,CgClose} from 'react-icons/cg'
+import cat from '../../assets/images/cat.svg'
 
 function NavBar() {
-  const [showLinks, setShowLinks] = useState(false);
 
 
   return (
     <nav className='navBarItems'>
         <div className="leftNav">
-          <Link to="/" className='logo'><h1>Jessica Choi</h1></Link>
+          <Link to="/" className='logo'>
+            <img src={cat} alt=''/>
+          </Link>
         </div>
         
         <ul className='rightNav'>
