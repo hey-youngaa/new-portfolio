@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 50px 100px;
     position: relative;
+    background-color: beige;
 }
 
 .profileInfo{
@@ -20,7 +21,6 @@
 }
 
 .profileTextWrapper h1{
-    font-family: cigra;
     font-size: 5rem;
 }
 

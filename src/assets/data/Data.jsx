@@ -7,8 +7,19 @@ import bakeryMobile from '../../assets/images/bakeryMobile.jpg'
 import homeDecorCase from '../../assets/documents/homeDecorCase.pdf'
 import mobileCase from '../../assets/documents/mobileCase.pdf'
 import websiteCase from '../../assets/documents/websiteCase.pdf'
+import JHC from '../../assets/images/JHC.png'
+import purple from '../../assets/images/purple.png'
+import cosmic from '../../assets/images/cosmic.png'
+import JHCspin from '../../assets/videos/JHCspin.mp4'
+import purpleShine from '../../assets/videos/purpleShine.mp4'
+
 
 export const NavItems = [
+    {
+        title: 'Home',
+        url: "/",
+        cName: "nav-links"
+    },
     {
         title: 'Work',
         url: "/work",
@@ -60,5 +71,19 @@ export const Projects = [
         title: 'Bakery Mobile App Concept',
         cName: 'case-title',
         pdf: mobileCase
+    }
+]
+
+export const Blender = [
+    {
+        cover: purple,
+        video: purpleShine
+    },
+    {
+        cover: JHC,
+        video:JHCspin
+    },
+    {
+        cover: cosmic
     }
 ]

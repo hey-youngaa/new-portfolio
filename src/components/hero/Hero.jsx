@@ -2,6 +2,8 @@ import React from 'react'
 import './hero.css'
 import ocean from '../../assets/videos/ocean.mp4'
 import { SocialIcons } from '../../assets/data/Data'
+import '../../assets/fonts/cigra.ttf'
+
 
 function Hero() {
   return (

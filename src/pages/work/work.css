@@ -36,3 +36,31 @@
     visibility: visible;
     opacity: 1;
 }
+
+.blenderContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 100px;
+    position: relative;
+    background-color: black;
+}
+
+.renderWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.renderWrapper img{
+    max-height: 480px;
+    height: 100%;
+    width: auto;
+}
+
+.renderWrapper video{
+    max-height: 480px;
+    height: 100%;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}

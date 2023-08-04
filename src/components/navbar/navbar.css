@@ -17,10 +17,14 @@
     width: 60px;
 }
 
+.menuIcon{
+    display: none;
+}
+
 .rightNav{
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: space-between;
 }
 
 .rightNav li{
@@ -38,5 +42,36 @@
 
 
 @media screen and (max-width: 850px){
+    .menuIcon{
+        font-size: 2rem;
+        position: absolute;
+        display: block;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+    }
+    
+    .navBarItems{
+        position: relative;
+    }
 
+    .rightNav{
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        top: 65px;
+        background-color: beige;
+        width: 0px;
+        height: calc(100% - 80px);
+        transition: all 0.3s ease-in;
+        overflow: hidden;
+
+        
+    }
+
+    .rightNav.active{
+        width: 300px;
+    }
+
+  
 }

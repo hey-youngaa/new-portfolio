@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
 import me from '../../assets/images/me.jpg'
+import resume from '../../assets/documents/resume.pdf'
 
 function About() {
   return (
@@ -17,7 +18,7 @@ function About() {
             enthusiast and bread lover.
             <br />
             <br />
-            Thanks for stopping by!
+            <a href={resume} target='_blank' rel='noreferrer'> Click here for my resume </a>
           </p>
         </div>
         <div className="profileImgWrapper">
