@@ -2,13 +2,12 @@ import React from 'react'
 import './hero.css'
 import ocean from '../../assets/videos/ocean.mp4'
 import { SocialIcons } from '../../assets/data/Data'
-import '../../assets/fonts/cigra.ttf'
 
 
 function Hero() {
   return (
     <div className="heroContainer">
-        <video src={ocean} autoPlay loop />
+        <video src={ocean} muted autoPlay loop />
         <h1>Jessica Choi</h1>
         <ul className='socials'>
             {SocialIcons.map((item,index) => {
