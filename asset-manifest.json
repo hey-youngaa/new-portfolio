@@ -1,26 +1,32 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.6abaf122.css",
-    "main.js": "/new-portfolio/static/js/main.6522d07c.js",
+    "main.css": "/new-portfolio/static/css/main.bbec58a5.css",
+    "main.js": "/new-portfolio/static/js/main.c69be7a2.js",
     "static/media/ocean.mp4": "/new-portfolio/static/media/ocean.ed72b07a2ba6e21b2a74.mp4",
+    "static/media/JHCspin.mp4": "/new-portfolio/static/media/JHCspin.8a95fc2d961436aa765c.mp4",
     "static/media/me.jpg": "/new-portfolio/static/media/me.c1aebf84c2671c30990a.jpg",
     "static/media/homeDecorCase.pdf": "/new-portfolio/static/media/homeDecorCase.5e6220d8af72c1010614.pdf",
     "static/media/websiteCase.pdf": "/new-portfolio/static/media/websiteCase.6688101a38733809514a.pdf",
+    "static/media/purpleShine.mp4": "/new-portfolio/static/media/purpleShine.32e6db2b96bb239478ad.mp4",
+    "static/media/JHC.png": "/new-portfolio/static/media/JHC.6c46b6ee5d3bf5b0f8a8.png",
     "static/media/mobileCase.pdf": "/new-portfolio/static/media/mobileCase.608be8acfefa20c5b633.pdf",
+    "static/media/purple.png": "/new-portfolio/static/media/purple.a8222b581c84ba2d84dc.png",
+    "static/media/cosmic.png": "/new-portfolio/static/media/cosmic.f620104e9f12a96b05aa.png",
     "static/media/bakeryWeb.jpg": "/new-portfolio/static/media/bakeryWeb.eb746550eb497b5f229d.jpg",
     "static/media/bakeryMobile.jpg": "/new-portfolio/static/media/bakeryMobile.a0d04140b4b0599a2be7.jpg",
     "static/media/homeDecor.jpg": "/new-portfolio/static/media/homeDecor.b9014515efaf1d351c88.jpg",
+    "static/media/brema.ttf": "/new-portfolio/static/media/brema.69ebe8498c74a8a8bac0.ttf",
     "static/media/resume.pdf": "/new-portfolio/static/media/resume.ecc63dbb2d0f06eec54c.pdf",
     "static/media/linkedIn.svg": "/new-portfolio/static/media/linkedIn.78861c575e1248e85445bca9a8d041ee.svg",
     "static/media/cat.svg": "/new-portfolio/static/media/cat.beb18be08cf668579ff276e89e37c07b.svg",
     "index.html": "/new-portfolio/index.html",
     "static/media/behance.svg": "/new-portfolio/static/media/behance.3486cf8d949385bafc5df74ab004d0ea.svg",
-    "static/media/email.svg": "/new-portfolio/static/media/email.7c40bedd9b56dacf157bd8ff24769f39.svg",
-    "main.6abaf122.css.map": "/new-portfolio/static/css/main.6abaf122.css.map",
-    "main.6522d07c.js.map": "/new-portfolio/static/js/main.6522d07c.js.map"
+    "static/media/email.svg": "/new-portfolio/static/media/email.54c1133383391108f6205f9039c1aee9.svg",
+    "main.bbec58a5.css.map": "/new-portfolio/static/css/main.bbec58a5.css.map",
+    "main.c69be7a2.js.map": "/new-portfolio/static/js/main.c69be7a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6abaf122.css",
-    "static/js/main.6522d07c.js"
+    "static/css/main.bbec58a5.css",
+    "static/js/main.c69be7a2.js"
   ]
 }
