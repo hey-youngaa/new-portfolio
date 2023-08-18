@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Cotham Sans';
+    src: url('../../assets/fonts/CothamSans.otf');
+}
+
+
 .navBarItems{
     display: flex;
     justify-content: space-between;
@@ -15,6 +21,11 @@
 
 .logo img{
     width: 60px;
+    transition: transform .2s;
+}
+
+.logo img:hover{
+    transform: scale(1.2);
 }
 
 .menuIcon{
@@ -25,10 +36,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    list-style-type: none;
 }
 
 .rightNav li{
-    list-style: none;
     padding: 0 20px;
     position: relative;
     font-size: 1.3rem;
@@ -38,10 +49,10 @@
     text-decoration: none;
     color: black;
     transition: 0.3s ease-in-out;
+    font-family: Cotham Sans
 }
 
-
-@media screen and (max-width: 850px){
+@media screen and (max-width: 600px){
     .menuIcon{
         font-size: 2rem;
         position: absolute;
@@ -49,6 +60,7 @@
         top: 0;
         right: 0;
         cursor: pointer;
+        transform: translate(-100%, 50%);
     }
     
     .navBarItems{
@@ -58,20 +70,23 @@
     .rightNav{
         display: flex;
         flex-direction: column;
-        right: 0;
-        top: 65px;
-        background-color: beige;
-        width: 0px;
+        width: 100%;
         height: calc(100% - 80px);
-        transition: all 0.3s ease-in;
-        overflow: hidden;
-
-        
+        top: 60px;
+        position: absolute;
+        transition: all 0.3s ease-out;
+        right: -100%;
     }
 
     .rightNav.active{
-        width: 300px;
+        right: 0;
     }
 
+    .nav-links{
+        margin: 30px 50px;
+        display: table;
+        padding: 1.5rem;
+        transition: all 0.2s ease-in-out;
+    }
   
 }

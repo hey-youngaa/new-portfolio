@@ -18,7 +18,7 @@ function About() {
             enthusiast and bread lover.
             <br />
             <br />
-            <a href={resume} target='_blank' rel='noreferrer'> Click here for my resume </a>
+            <p>Click <a href={resume} target='_blank' rel='noreferrer'>here</a> for my resume</p>
           </p>
         </div>
         <div className="profileImgWrapper">

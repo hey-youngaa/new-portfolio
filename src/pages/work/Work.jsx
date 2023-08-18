@@ -2,6 +2,7 @@ import React from 'react'
 import './work.css'
 import { Projects } from '../../assets/data/Data'
 import { Blender } from '../../assets/data/Data'
+import { Link } from 'react-router-dom'
 
 function Work() {
   return (
@@ -9,22 +10,21 @@ function Work() {
       <div className="studiesContainer">
         {Projects.map((item) => {
           return(
-            <a href={item.pdf} target='_blank' rel='noreferrer' >
+            <Link to={`/work/${item.id}`} className='caseLink'>
               <div className="studyWrapper">
                 <img src={item.cover} alt="" />
-                <h1 className={item.cName}> {item.title} </h1>
+                <h2 className={item.cName}> {item.title} </h2>
               </div>
-            </a>
+            </Link>
           )
         })}
       </div>
-      <h1>Blender Works</h1>
+     
       <div className="blenderContainer">
         {Blender.map((item) => {
           return(
             <div className="renderWrapper">
               <img src={item.cover} alt='' />
-              <video src={item.video} autoPlay loop/>
             </div>
           )
         })}

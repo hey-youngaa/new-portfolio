@@ -2,6 +2,14 @@
     font-family: 'brema';
     src: url('../../assets//fonts/brema.ttf');
 }
+@font-face {
+    font-family: 'Cotham Sans';
+    src: url('../../assets/fonts/CothamSans.otf');
+}
+@font-face {
+    font-family: 'roboto';
+    src: url('../../assets/fonts/Roboto-Regular.ttf');
+}
 
 .aboutContainer{
     display: flex;
@@ -31,7 +39,8 @@
 }
 
 .profileTextWrapper p{
-    font-size: 18px;
+    font-size: 20px;
+    font-family: roboto;
 }
 
 
