@@ -49,7 +49,7 @@
     text-decoration: none;
     color: black;
     transition: 0.3s ease-in-out;
-    font-family: Cotham Sans
+    font-family: Cotham Sans;
 }
 
 @media screen and (max-width: 600px){
@@ -74,19 +74,30 @@
         height: calc(100% - 80px);
         top: 60px;
         position: absolute;
-        transition: all 0.3s ease-out;
-        right: -100%;
+        transition: all .5s ease;
+        left: -100%;
     }
 
     .rightNav.active{
-        right: 0;
+        left: 0;
+        opacity: 1;
+        z-index: 1;
+        height: 60vh;
+        transition: all 0.5s ease;
+        background-color: white;
+        box-sizing: border-box;
     }
 
     .nav-links{
-        margin: 30px 50px;
+        margin: 50px 50px;
+        text-align: center;
         display: table;
-        padding: 1.5rem;
-        transition: all 0.2s ease-in-out;
+        padding: 1rem;
+        transition: all 0.2s ease;
+    }
+
+    .nav-links:hover{
+        transform: scale(1.2);
     }
   
 }
