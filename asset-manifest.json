@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.2841d947.css",
-    "main.js": "/new-portfolio/static/js/main.a5322ed2.js",
+    "main.css": "/new-portfolio/static/css/main.ab445cfd.css",
+    "main.js": "/new-portfolio/static/js/main.1da7b0a1.js",
     "static/media/webmock.gif": "/new-portfolio/static/media/webmock.ae196789ca82af203dd7.gif",
     "static/media/ocean.mp4": "/new-portfolio/static/media/ocean.ed72b07a2ba6e21b2a74.mp4",
     "static/media/cozyproto.gif": "/new-portfolio/static/media/cozyproto.21af8190c02cb6ce0f42.gif",
@@ -25,7 +25,7 @@
     "static/media/app1.png": "/new-portfolio/static/media/app1.9ee77850bc95b6da3f62.png",
     "static/media/cozymocks.png": "/new-portfolio/static/media/cozymocks.4a3e9cb18dfaf38619f0.png",
     "static/media/appperson2.png": "/new-portfolio/static/media/appperson2.8f5ee60d3a76fb645e35.png",
-    "static/media/appperson1.png": "/new-portfolio/static/media/appperson1.260160744071c2234669.png",
+    "static/media/appperson1.png": "/new-portfolio/static/media/appperson1.5d3e262b9c1df71ccb20.png",
     "static/media/appmap.png": "/new-portfolio/static/media/appmap.6282c9930be49718f684.png",
     "static/media/webmap.png": "/new-portfolio/static/media/webmap.648666d49427ee8be7ec.png",
     "static/media/weblofi1.png": "/new-portfolio/static/media/weblofi1.00738865b67b70bdbade.png",
@@ -33,6 +33,7 @@
     "static/media/weblofi2.png": "/new-portfolio/static/media/weblofi2.f9f91ec750de2328c5af.png",
     "static/media/cozy1.png": "/new-portfolio/static/media/cozy1.87fb776871d08649d0ca.png",
     "static/media/weborder.png": "/new-portfolio/static/media/weborder.8cfec32a5ee57da11ac7.png",
+    "static/media/appresearch.png": "/new-portfolio/static/media/appresearch.0d744fe8d552e2df2920.png",
     "static/media/web3.png": "/new-portfolio/static/media/web3.299a0daf9cd99e263a53.png",
     "static/media/cozylofi2.png": "/new-portfolio/static/media/cozylofi2.95805b3f0a4be742c702.png",
     "static/media/cozylofi1.png": "/new-portfolio/static/media/cozylofi1.65acb61db4e1cf62fb43.png",
@@ -54,11 +55,11 @@
     "index.html": "/new-portfolio/index.html",
     "static/media/behance.svg": "/new-portfolio/static/media/behance.3486cf8d949385bafc5df74ab004d0ea.svg",
     "static/media/email.svg": "/new-portfolio/static/media/email.54c1133383391108f6205f9039c1aee9.svg",
-    "main.2841d947.css.map": "/new-portfolio/static/css/main.2841d947.css.map",
-    "main.a5322ed2.js.map": "/new-portfolio/static/js/main.a5322ed2.js.map"
+    "main.ab445cfd.css.map": "/new-portfolio/static/css/main.ab445cfd.css.map",
+    "main.1da7b0a1.js.map": "/new-portfolio/static/js/main.1da7b0a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.2841d947.css",
-    "static/js/main.a5322ed2.js"
+    "static/css/main.ab445cfd.css",
+    "static/js/main.1da7b0a1.js"
   ]
 }
