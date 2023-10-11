@@ -1,39 +1,37 @@
 import React, {useState} from 'react'
 import './navbar.css'
 import {NavItems} from '../../assets/data/Data'
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import cat from '../../assets/images/cat.svg'
-import {CgMenu} from 'react-icons/cg'
+import menu from '../../assets/images/menu.svg'
 
 function NavBar() {
   const [showNavBar, setShowNavBar] = useState(false)
 
-  const handleShowNavBar = () => {
-    setShowNavBar(!showNavBar)
-  }
+  const handleShowNavBar = () => setShowNavBar(!showNavBar);
+
+  const closeMobileMenu = () => setShowNavBar(false);
 
   return (
-    <nav className='navBarItems'>
-        <div className="leftNav">
-          <Link to="/" className='logo'>
-            <img src={cat} alt=''/>
-          </Link>
-        </div>
-        <div className="menuIcon" onClick={handleShowNavBar}>
-          <CgMenu />
-        </div>
+    <nav className='navBarContainer'>
+      <NavLink to="/" className='logo' onClick={closeMobileMenu}>
+        <img src={cat} alt=''/>
+      </NavLink>
+      <div className="menuIcon" onClick={handleShowNavBar}>
+        <img src={menu} alt='menu bar' />
+      </div>
 
-        <ul className={showNavBar ? 'rightNav active' : 'rightNav'}>
+        <div className={showNavBar ? 'navItems active' : 'navItems'} >
             {NavItems.map((item,index) => {
                 return(
-                    <li key={index}>
-                        <Link className={item.cName} to={item.url}>
+                    <div key={index}>
+                        <NavLink className={item.cName} to={item.url} onClick={closeMobileMenu}>
                           {item.title}
-                        </Link>
-                    </li>
+                        </NavLink>
+                    </div>
                 )
               })}
-          </ul>
+          </div>
       </nav>
   )
 }

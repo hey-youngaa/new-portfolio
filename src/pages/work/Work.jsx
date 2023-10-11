@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function Work() {
   return (
-    <div className="workContainer">
+    <div className="pageContainer">
       <div className="studiesContainer">
         {Projects.map((item) => {
           return(
@@ -19,7 +19,7 @@ function Work() {
           )
         })}
       </div>
-     
+      <br />
       <div className="blenderContainer">
         {Blender.map((item) => {
           return(

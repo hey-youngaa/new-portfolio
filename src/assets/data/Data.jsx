@@ -71,12 +71,12 @@ export const NavItems = [
 export const SocialIcons = [
     {
         image: linkedIn,
-        url: 'https://www.linkedin.com/in/jessica-choi-55400623b',
+        url: 'https://www.linkedin.com/in/heyyoungaa',
         cName: 'social-links'
     },
     {
         image: behance,
-        url: 'https://www.behance.net/jessicachoi9',
+        url: 'https://www.behance.net/heyyoungaa',
         cName: 'social-links'
     },
     {

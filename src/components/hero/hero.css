@@ -13,6 +13,17 @@ video{
     left: 0;
 }
 
+.homeStillImg{
+    z-index: -2;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0;
+}
+
 .heroContainer{
     display: flex;
     height: 100vh;
@@ -56,5 +67,16 @@ video{
     .heroContainer  h1{
         font-size: 70px;
         
+    }
+}
+
+@media screen and (max-width: 460px) {
+    video{
+        opacity: 0;
+    }
+
+    .homeStillImg{
+        opacity: 1;
+        z-index: -1;
     }
 }

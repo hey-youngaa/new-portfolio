@@ -1,24 +1,16 @@
-@font-face {
-    font-family: 'Cotham Sans';
-    src: url('../../assets/fonts/CothamSans.otf');
-}
-
-
-.navBarItems{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 80px;
+.navBarContainer{
     height: 80px;
-    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
     border-bottom: 2px solid black;
 }
 
 .logo{
-    text-decoration: none;
-    color: black;
+    margin-left: 50px;
 }
-
 .logo img{
     width: 60px;
     transition: transform .2s;
@@ -32,72 +24,73 @@
     display: none;
 }
 
-.rightNav{
+.navItems{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style-type: none;
-}
-
-.rightNav li{
-    padding: 0 20px;
-    position: relative;
-    font-size: 1.3rem;
+    flex-direction: row;
+    width: 45%;
+    justify-content: space-evenly;
 }
 
 .nav-links{
     text-decoration: none;
     color: black;
-    transition: 0.3s ease-in-out;
-    font-family: Cotham Sans;
+    display: block;
+    font-size: 20px;
 }
 
-@media screen and (max-width: 600px){
-    .menuIcon{
-        font-size: 2rem;
-        position: absolute;
+.nav-links.active{
+    border-bottom: 2px solid black;
+}
+
+.nav-links:hover{
+    color: #3B526D;
+}
+
+
+/* mobile responsive version */
+@media screen and (max-width: 700px){
+   .menuIcon{
         display: block;
-        top: 0;
-        right: 0;
+        position: absolute;
+        top: 20px;
+        right: 35px;
         cursor: pointer;
-        transform: translate(-100%, 50%);
-    }
+   }
+
+   .menuIcon img{
+    height: 40px;
+    width: auto;
+   }
     
     .navBarItems{
         position: relative;
     }
 
-    .rightNav{
+    .navItems{
+        background-color: white;
+        position: absolute;
         display: flex;
         flex-direction: column;
+        top: 80px;
         width: 100%;
-        height: calc(100% - 80px);
-        top: 60px;
-        position: absolute;
-        transition: all .5s ease;
+        height: 90vh;
         left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
     }
 
-    .rightNav.active{
+    .navItems.active{
         left: 0;
         opacity: 1;
-        z-index: 1;
-        height: 60vh;
         transition: all 0.5s ease;
-        background-color: white;
+        z-index: 1;
         box-sizing: border-box;
     }
 
-    .nav-links{
-        margin: 50px 50px;
+    .navItems.active .nav-links{
+        float: none;
+        display: block;
         text-align: center;
-        display: table;
-        padding: 1rem;
-        transition: all 0.2s ease;
-    }
-
-    .nav-links:hover{
-        transform: scale(1.2);
     }
   
 }
