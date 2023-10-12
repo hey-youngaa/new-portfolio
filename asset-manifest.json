@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.f21a9526.css",
-    "main.js": "/new-portfolio/static/js/main.e03c0c8f.js",
+    "main.js": "/new-portfolio/static/js/main.0fdf5c87.js",
     "static/media/webmock.gif": "/new-portfolio/static/media/webmock.ae196789ca82af203dd7.gif",
     "static/media/ocean.mp4": "/new-portfolio/static/media/ocean.ed72b07a2ba6e21b2a74.mp4",
     "static/media/cozyproto.gif": "/new-portfolio/static/media/cozyproto.21af8190c02cb6ce0f42.gif",
@@ -48,7 +48,7 @@
     "static/media/app2.png": "/new-portfolio/static/media/app2.526a8e0eba922914b6ce.png",
     "static/media/web2.png": "/new-portfolio/static/media/web2.a415191cb6b104a9f3d1.png",
     "static/media/webia.png": "/new-portfolio/static/media/webia.9702ba36c6bb848f942a.png",
-    "static/media/resume.pdf": "/new-portfolio/static/media/resume.f6de1da5c38f74e18355.pdf",
+    "static/media/resume.pdf": "/new-portfolio/static/media/resume.8f4a9f7554bc398bff21.pdf",
     "static/media/linkedIn.svg": "/new-portfolio/static/media/linkedIn.78861c575e1248e85445bca9a8d041ee.svg",
     "static/media/CothamSans.otf": "/new-portfolio/static/media/CothamSans.869def516eb03d755a68.otf",
     "index.html": "/new-portfolio/index.html",
@@ -60,10 +60,10 @@
     "static/media/left.svg": "/new-portfolio/static/media/left.4b3f44230b8182191341d6228f4bed27.svg",
     "static/media/right.svg": "/new-portfolio/static/media/right.50703ef55bbe55adf8ce0d08b781b8e9.svg",
     "main.f21a9526.css.map": "/new-portfolio/static/css/main.f21a9526.css.map",
-    "main.e03c0c8f.js.map": "/new-portfolio/static/js/main.e03c0c8f.js.map"
+    "main.0fdf5c87.js.map": "/new-portfolio/static/js/main.0fdf5c87.js.map"
   },
   "entrypoints": [
     "static/css/main.f21a9526.css",
-    "static/js/main.e03c0c8f.js"
+    "static/js/main.0fdf5c87.js"
   ]
 }
