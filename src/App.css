@@ -1,7 +1,45 @@
+@font-face {
+    font-family: 'Brema';
+    src: url('./assets/fonts/brema.ttf');
+}
+
+@font-face {
+    font-family: 'Cotham Sans';
+    src: url('./assets/fonts/CothamSans.otf');
+}
+
 .pageContainer{
     display: flex;
     flex-direction: column;
     height: 100%;
     padding: 50px 50px;
-    background-color: #8ca4b2;
+}
+
+h1{
+    font-family: Brema;
+    font-size: 5rem;
+}
+
+h2{
+    font-family: Cotham Sans;
+}
+
+p{
+    font-size: 20px;
+}
+
+a{
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 460) {
+    h1{
+        font-size: 3rem;
+    }
 }

@@ -8,7 +8,7 @@ import Work from './pages/work/Work'
 
 function App() {
   return (
-    <Router>
+    <Router basename='/new-portfolio'>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}/>

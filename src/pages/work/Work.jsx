@@ -3,6 +3,7 @@ import './work.css'
 import { Projects } from '../../assets/data/Data'
 import { Blender } from '../../assets/data/Data'
 import { Link } from 'react-router-dom'
+import ImgGallery from '../../components/imggallery/ImgGallery'
 
 function Work() {
   return (
@@ -19,16 +20,8 @@ function Work() {
           )
         })}
       </div>
-      <br />
-      <div className="blenderContainer">
-        {Blender.map((item) => {
-          return(
-            <div className="renderWrapper">
-              <img src={item.cover} alt='' />
-            </div>
-          )
-        })}
-      </div>
+      
+      <ImgGallery gallery={Blender} />
     </div>
   )
 }

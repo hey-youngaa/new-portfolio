@@ -91,6 +91,7 @@
         float: none;
         display: block;
         text-align: center;
+        border-bottom: none;
     }
   
 }

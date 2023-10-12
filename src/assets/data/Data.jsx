@@ -261,12 +261,12 @@ export const Projects = [
 
 export const Blender = [
     {
-        cover: heart
+        image: heart
     },
     {
-        cover: vaccine,
+        image: vaccine,
     },
     {
-        cover: chrome
+        image: chrome
     }
 ]
