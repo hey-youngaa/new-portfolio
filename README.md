@@ -1,8 +1,8 @@
 # Portfolio Website
-### `view project`
+### view project
 ([https://hey-youngaa.github.io/new-portfolio/])
 
-## 'Technologies`
+### Technologies
 
 HTML, CSS, ReactJS
 
