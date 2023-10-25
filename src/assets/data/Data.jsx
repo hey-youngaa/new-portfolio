@@ -44,6 +44,32 @@ import webpdp from '../../assets/images/webpdp.png'
 import weborder from '../../assets/images/weborder.png'
 import webmock from '../../assets/images/webmock.gif'
 
+import ysEmail from '../../assets/images/ysEmail.png'
+import ys1 from '../../assets/images/ys1.png'
+import ys2 from '../../assets/images/ys2.png'
+import ys3 from '../../assets/images/ys3.png'
+import ys4 from '../../assets/images/ys4.png'
+import ys5 from '../../assets/images/ys5.png'
+import ys6 from '../../assets/images/ys6.png'
+import ys7 from '../../assets/images/ys7.png'
+import ys8 from '../../assets/images/ys8.png'
+
+import cbPdp from '../../assets/images/cbPdp.jpg'
+import cb1 from '../../assets/images/cb1.png'
+import cb2 from '../../assets/images/cb2.png'
+import cb3 from '../../assets/images/cb3.png'
+import cb4 from '../../assets/images/cb4.png'
+import cb5 from '../../assets/images/cb5.png'
+import cb6 from '../../assets/images/cb6.png'
+import cb7 from '../../assets/images/cb7.png'
+import cb8 from '../../assets/images/cb8.png'
+import cb9 from '../../assets/images/cb9.png'
+import cb10 from '../../assets/images/cb10.png'
+import cb11 from '../../assets/images/cb11.png'
+
+import laWeb from '../../assets/images/laWeb.png'
+import la1 from '../../assets/images/la1.png'
+
 import heart from '../../assets/images/heart.png'
 import chrome from '../../assets/images/chrome.png'
 import vaccine from '../../assets/images/vaccine.png'
@@ -256,7 +282,111 @@ export const Projects = [
             }
         ]
 
-    }
+    },
+    {
+        id: 'gym-landing-page',
+        cover: laWeb,
+        title: 'LA Fitness Home Page',
+        cName: 'case-title',
+        images: [
+            {
+                image: la1,
+                alt: 'gym landing study page'
+            }
+        ]
+    },
+    {
+        id: 'yesstyle-email-template',
+        cover: ysEmail,
+        title: 'YesStyle Email Template',
+        cName: 'case-title',
+        images: [
+            {
+                image: ys1,
+                alt: 'yesstyle email study page'
+            },
+            {
+                image: ys2,
+                alt: 'yesstyle email study page'
+            },
+            {
+                image: ys3,
+                alt: 'yesstyle email study page'
+            },
+            {
+                image: ys4,
+                alt: 'yesstyle email study page'
+            },
+            {
+                image: ys5,
+                alt: 'yesstyle email study page'
+            },
+            {
+                image: ys6,
+                alt: 'yesstyle email study page'
+            },
+            {
+                image: ys7,
+                alt: 'yesstyle email study page'
+            },
+            {
+                image: ys8,
+                alt: 'yesstyle email study page'
+            }
+        ]
+    },
+    {
+        id: 'codibook-PDP',
+        cover: cbPdp,
+        title: 'Codibook PDP',
+        cName: 'case-title',
+        images: [
+            {
+                image: cb1,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb2,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb3,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb4,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb5,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb6,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb7,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb8,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb9,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb10,
+                alt: 'Codibook PDP case study page'
+            },
+            {
+                image: cb11,
+                alt: 'Codibook PDP case study page'
+            }
+        ]
+    },
 ]
 
 export const Blender = [

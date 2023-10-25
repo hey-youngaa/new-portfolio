@@ -1,9 +1,10 @@
 import React from 'react'
 import './work.css'
 import { Projects } from '../../assets/data/Data'
-import { Blender } from '../../assets/data/Data'
+//import { Blender } from '../../assets/data/Data'
 import { Link } from 'react-router-dom'
-import ImgGallery from '../../components/imggallery/ImgGallery'
+//import ImgGallery from '../../components/imggallery/ImgGallery'
+
 
 function Work() {
   return (
@@ -20,8 +21,6 @@ function Work() {
           )
         })}
       </div>
-      
-      <ImgGallery gallery={Blender} />
     </div>
   )
 }
