@@ -69,6 +69,14 @@ import cb11 from '../../assets/images/cb11.png'
 
 import laWeb from '../../assets/images/laWeb.png'
 import la1 from '../../assets/images/la1.png'
+import la2 from '../../assets/images/la2.png'
+import la3 from '../../assets/images/la3.png'
+import la4 from '../../assets/images/la4.png'
+import la5 from '../../assets/images/la5.png'
+import la6 from '../../assets/images/la6.png'
+import la7 from '../../assets/images/la7.png'
+import la8 from '../../assets/images/la8.png'
+import la9 from '../../assets/images/la9.png'
 
 import heart from '../../assets/images/heart.png'
 import chrome from '../../assets/images/chrome.png'
@@ -291,6 +299,38 @@ export const Projects = [
         images: [
             {
                 image: la1,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la2,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la3,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la4,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la5,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la6,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la7,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la8,
+                alt: 'gym landing study page'
+            },
+            {
+                image: la9,
                 alt: 'gym landing study page'
             }
         ]
