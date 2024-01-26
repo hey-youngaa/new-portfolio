@@ -1,8 +1,21 @@
 import React from 'react'
+import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
 
-function ImgGallery() {
+function ImgGallery({gallery}) {
   return (
-    <div>ImgGallery</div>
+    <ResponsiveMasonry>
+      <Masonry>
+        {gallery.map((item,index) => {
+          return(
+            <img
+              key={index}
+              src={item.image}
+              alt={item.alt}
+            />
+          )
+        })}
+      </Masonry>
+  </ResponsiveMasonry>
   )
 }
 

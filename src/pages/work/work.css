@@ -1,55 +1,25 @@
-.studiesContainer, .blenderContainer{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-    gap: 10px;
+.case-links{
+    text-decoration: none;
 }
 
-.studyWrapper{
-    position: relative;
-    text-align: center;
+.case-links h1{
+    font-size: 30px;
+    display: inline;
+}
+.caseNumber{
+    font-family: brema;
 }
 
-.studyWrapper img{
-   object-fit: cover;
-   height: 100%;
-   width: 100%;
+.tag{
+    display: inline;
 }
 
-.case-title{
-    position: absolute;
-    top:0; left: 0; bottom: 0; right: 0;
-    margin: 0;
+.work{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(248,239,230,0.52);
-    color: black;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity .2s, visibility .2s;
-}
-
-.studyWrapper:hover .case-title{
-    visibility: visible;
-    opacity: 1;
-}
-
-.renderWrapper img{
-    object-fit: cover;
-    height: 100%;
     width: 100%;
-
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
 }
 
-@media screen and (max-width: 800px) {
-    .studiesContainer, .blenderContainer{
-        grid-template-columns: repeat(2,1fr); 
-    }
-}
 
-@media screen and (max-width: 500px) {
-    .studiesContainer, .blenderContainer{
-        grid-template-columns: 1fr; 
-    }
-}

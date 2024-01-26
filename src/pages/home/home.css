@@ -1,0 +1,106 @@
+.homeContainer{
+    min-height: calc(100vh - 283px);
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.introText{
+    max-width: 1024px;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2vw;
+}
+
+.introText span{
+    font-family: brema;
+    font-style: italic;
+}
+.introText img{
+    display: inline-block;
+    max-height: 1em;
+    width: auto;
+    vertical-align: middle;
+}
+
+.workSection{
+    display: flex;
+    flex-direction: column;
+    max-width: 1510px;
+    padding: 0 10vw;
+}
+
+.block{
+    position: relative;
+    padding: 2vw 0;
+}
+
+.workCover{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.workDetails{
+    position: relative;
+}
+
+.workDetails p{
+    max-width: 85%;
+}
+.workLink{
+    text-decoration: none;
+}
+.workLinkBox{
+    position: absolute;
+    top: 1em;
+    right: 0;
+    height: 44px;
+    width: 150px;
+    text-align: right;
+}
+.workLink img{
+    height: 100%;
+    width: auto;
+    position: absolute;
+    right: 0;
+    filter: invert(18%) sepia(99%) saturate(2173%) hue-rotate(145deg) brightness(93%) contrast(105%);
+}
+.workLink img, .workLinkText{
+    transition: opacity 0.5s ease-in-out;
+}
+
+.workLinkText{
+    position: absolute;
+    font-size: 1.5em;
+    right: 0;
+    opacity: 0;
+    font-weight: 600;
+}
+
+.workLink:hover img{
+    opacity: 0;
+}
+.workLink:hover .workLinkText{
+    opacity: 1;
+}
+
+@media screen and (max-width: 1024px) {
+    .introText{
+        font-size: 4vw;
+        padding: 0 5vw;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .workSection{
+        padding: 2vw 5vw;
+    }
+}
+
+

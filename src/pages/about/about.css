@@ -1,47 +1,90 @@
-.pageContainer{
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.aboutContainer{
+    background-color: #f7f7f7;
+    min-height: calc(100vh - 283px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2%;
+    
+}
+.aboutSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 2em;
+    padding: 0 10vw;
 }
 
 .profileTextWrapper{
-    flex: 40%;
-    position: relative;
-    margin-top: 0;
+    align-self: start;
 }
 
 .profileTextWrapper h1{
-    position: relative;
     margin-top: 0;
 }
 
 .aboutText{
     position: relative;
-    top: -40px;
+    top: -2rem;
+}
+
+.profileImgWrapper{
+    justify-self: end;
+    align-self: center;
 }
 
 .profileImgWrapper img{
-    max-width: 450px;
-    width: 100%;
+    display: block;
+    max-width: 500px;
     height: auto;
+    border-radius: 50%;
 }
 
-.connectSection{
+.marquee{
     display: flex;
-    align-items: center;
+    overflow: hidden;
+    --gap: 1rem;
+    gap: var(--gap);
     position: relative;
-    top: -40px;
+    user-select: none;
 }
 
-.connectSection li{
-    list-style: none;
+.marqueeContent{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 100%;
+    gap: var(--gap)
+}
+.marqueeContent img{
+    width: 5vw;
+    max-height: 80%;
+
 }
 
-.connectSection li:nth-child(2){
-    padding: 0 10px;
+@keyframes scroll{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(calc(-100% - var(--gap)));
+    }
 }
 
-.connectSection img{
-   height: 25px;
-   width: auto;
+.scroll{
+    animation: scroll 20s linear infinite;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .aboutSection{
+        grid-template-columns: 1fr;
+        padding: 0 10vw;
+    }
+
+    .profileImgWrapper{
+        place-self: center;
+    }
 }

@@ -1,26 +1,46 @@
 import React from 'react'
+import Masonry,{ResponsiveMasonry} from 'react-responsive-masonry'
 import './work.css'
-import { Projects } from '../../assets/data/Data'
-//import { Blender } from '../../assets/data/Data'
+import { projects } from '../../assets/data/Data'
+import { blenderWork } from '../../assets/data/Data'
 import { Link } from 'react-router-dom'
-//import ImgGallery from '../../components/imggallery/ImgGallery'
-
 
 function Work() {
   return (
     <div className="pageContainer">
-      <div className="studiesContainer">
-        {Projects.map((item) => {
+      <a href='https://elephantinthesnake.com/' rel='noreferrer' target='_blank' className='case-links'>
+          <div className="work">
+            <h1>
+            <span className='caseNumber'> 01. </span>
+            <span className='caseTitle'>June</span>
+            </h1>
+            <p className="tag">Website Design & Development</p>
+          </div>
+        </a>
+
+        {projects.map((item) => {
           return(
-            <Link to={`/work/${item.id}`} className='caseLink'>
-              <div className="studyWrapper">
-                <img src={item.cover} alt="" />
-                <h2 className={item.cName}> {item.title} </h2>
+            <Link to={`/${item.id}`} className={item.cName}>
+              <div className="work">
+                <h1>
+                  <span className='caseNumber'> 0{item.number}.</span> 
+                  <span className="workTitle"> {item.title}</span>
+                </h1>
+                <p className='tag'>{item.tags}</p>
               </div>
             </Link>
           )
         })}
-      </div>
+        <br/>
+        <ResponsiveMasonry columnsCountBreakPoints={{350:1, 750:2, 900:3}}>
+          <Masonry gutter='2em'>
+            {blenderWork.map((item) => {
+              return(
+                <img src={item.image} alt={item.alt} loading='lazy'/>
+              )
+            })}
+          </Masonry>
+        </ResponsiveMasonry>
     </div>
   )
 }

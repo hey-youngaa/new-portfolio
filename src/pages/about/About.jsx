@@ -1,39 +1,41 @@
 import React from 'react'
 import './about.css'
 import me from '../../assets/images/me.jpg'
-import resume from '../../assets/documents/resume.pdf'
-import { SocialIcons } from '../../assets/data/Data'
+import catEye from '../../assets/images/catEye.svg'
 
 function About() {
   return (
-    <div className="pageContainer">
-      <div className="profileTextWrapper">
-        <h1>Hi there!</h1>
-        <p className='aboutText'>
-          Currently I'm learning how to code and design to become a UX/UI designer,
-          and you're looking at my very first website that I coded with React JSX. 
-          <br />
-          <br />
-          Some fun facts about me, I'm an amateuar photographer, nature documentaries
-          enthusiast and bread lover.
-          <br />
-          <br />
-          Click <a href={resume} target='_blank' rel='noreferrer'>here</a> for my resume
-        </p>
-        <div className="connectSection">
-          {SocialIcons.map((item) => {
-            return(
-              <li>
-                <a target='_blank'rel='noreferrer' href={item.url} className={item.cName}>
-                  <img src={item.image} alt="" />
-                </a>
-              </li> 
-            )
-          })}
+    <div className="aboutContainer">
+      <div className="aboutSection">
+        <div className="profileTextWrapper">
+          <h1>Hi there!</h1>
+          <p className='aboutText'>
+            It's nice to meet you, I'm Jessica.<br/><br/>My curious nature led me to the digital world and 
+            I've been enjoying the learning process behind UX/UI design and web development. I'm interested
+            in creating impactful and intuitive experiences and am currently looking for opportunities to
+            grow in the design field.
+          </p>
+        </div>
+        <div className="profileImgWrapper">
+          <img src={me} alt='profile' />
         </div>
       </div>
-      <div className="profileImgWrapper">
-        <img src={me} alt='profile' />
+      <div className="marquee">
+        <div className="marqueeContent scroll">
+          <img src={catEye} alt='cateye' />
+          <h2>
+            UX Design &ensp; UI Design &ensp; Responsive Design &ensp; Wireframing &ensp; Mockups &ensp; Prototyping &ensp; 
+            Web Development &ensp; ReactJS &ensp; 3D Design &ensp;
+          </h2>
+        </div>
+        {/*second marquee content div to mirror */}
+        <div className="marqueeContent scroll" aria-hidden="true">
+          <img src={catEye} alt='cateye' />
+          <h2>
+            UX Design &ensp; UI Design &ensp; Responsive Design &ensp; Wireframing &ensp; Mockups &ensp; Prototyping &ensp; 
+            Web Development &ensp; ReactJS &ensp; 3D Design &ensp;
+          </h2>
+        </div>
       </div>
     </div>
   )

@@ -1,23 +1,17 @@
 .navBarContainer{
-    height: 80px;
+    height: 100px;
     width: 100%;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    overflow: hidden;
-    border-bottom: 2px solid black;
+    padding: 2em 10% 1em 10%;
+    background-color: #f7f7f7;
 }
 
 .logo{
-    margin-left: 50px;
-}
-.logo img{
-    width: 60px;
-    transition: transform .2s;
-}
-
-.logo img:hover{
-    transform: scale(1.2);
+    height: 100%;;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .menuIcon{
@@ -27,35 +21,36 @@
 .navItems{
     display: flex;
     flex-direction: row;
-    width: 45%;
-    justify-content: space-evenly;
 }
 
 .nav-links{
     text-decoration: none;
-    color: black;
-    display: block;
+    margin-left: 30px;
     font-size: 20px;
+    font-family: Zen Kaku Gothic New;
+    font-weight: 600;
+    display: block;
 }
 
 .nav-links.active{
-    border-bottom: 2px solid black;
+    background-color: rgba(196, 221, 146, .5);
 }
 
 .nav-links:hover{
-    color: #3B526D;
+    background-color: rgba(155, 200, 235, .5);
 }
 
 
-/* mobile responsive version */
-@media screen and (max-width: 700px){
+
+
+/* mobile and tablet responsive version */
+@media screen and (max-width: 1024px){
    .menuIcon{
-        display: block;
-        position: absolute;
-        top: 20px;
-        right: 35px;
+        display: inline-block;
         cursor: pointer;
+        vertical-align: middle;
    }
+
 
    .menuIcon img{
     height: 40px;
@@ -64,19 +59,25 @@
     
     .navBarItems{
         position: relative;
-    }
+    }  
+}
 
+@media screen and (max-width: 1024px) {
     .navItems{
-        background-color: white;
-        position: absolute;
+        background-color: #f7f7f7;
+        position: fixed;
         display: flex;
         flex-direction: column;
-        top: 80px;
+        top: 100px;
         width: 100%;
-        height: 90vh;
+        height: calc(100vh - 100px);
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
+        padding-top: 4em;
+        justify-content: flex-start;
+        gap: 1.5rem;
+
     }
 
     .navItems.active{
@@ -84,7 +85,6 @@
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
-        box-sizing: border-box;
     }
 
     .navItems.active .nav-links{
@@ -92,6 +92,6 @@
         display: block;
         text-align: center;
         border-bottom: none;
+        font-size: 3rem;
     }
-  
 }
