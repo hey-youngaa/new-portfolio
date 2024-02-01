@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.9297f621.css",
-    "main.js": "/new-portfolio/static/js/main.ef6c38b3.js",
+    "main.js": "/new-portfolio/static/js/main.90e95f53.js",
     "static/media/webmock.gif": "/new-portfolio/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/new-portfolio/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/new-portfolio/static/media/wave.6b41a7db25e28306ace2.gif",
@@ -85,17 +85,17 @@
     "static/media/web2.png": "/new-portfolio/static/media/web2.a415191cb6b104a9f3d1.png",
     "static/media/bakeryMobile.jpg": "/new-portfolio/static/media/bakeryMobile.befc8eebe4fb1301ed3a.jpg",
     "static/media/webia.png": "/new-portfolio/static/media/webia.9702ba36c6bb848f942a.png",
-    "static/media/resume.pdf": "/new-portfolio/static/media/resume.a94ff21128cf1675178d.pdf",
+    "static/media/resume.pdf": "/new-portfolio/static/media/resume.e1ccb5952686c70939cc.pdf",
     "static/media/ys8.png": "/new-portfolio/static/media/ys8.60df4619bd18a10446a2.png",
     "static/media/cb10.png": "/new-portfolio/static/media/cb10.23ab6e698a92590ff18e.png",
     "index.html": "/new-portfolio/index.html",
     "static/media/menu.svg": "/new-portfolio/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/new-portfolio/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
     "main.9297f621.css.map": "/new-portfolio/static/css/main.9297f621.css.map",
-    "main.ef6c38b3.js.map": "/new-portfolio/static/js/main.ef6c38b3.js.map"
+    "main.90e95f53.js.map": "/new-portfolio/static/js/main.90e95f53.js.map"
   },
   "entrypoints": [
     "static/css/main.9297f621.css",
-    "static/js/main.ef6c38b3.js"
+    "static/js/main.90e95f53.js"
   ]
 }
