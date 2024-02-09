@@ -33,21 +33,3 @@ h1{
     font-family: brema;
 }
 
-p{
-    font-size: 20px;
-    font-family: zen kaku gothic new;
-}
-
-
-@media screen and (max-width: 600px) {
-    h1{
-        font-size: 2rem;
-    }
-}
-
-@media screen and (max-width: 390) {
-
-    h1{
-        font-size: 1rem;
-    }
-}

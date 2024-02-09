@@ -10,10 +10,10 @@ function Work() {
     <div className="pageContainer">
       <a href='https://elephantinthesnake.com/' rel='noreferrer' target='_blank' className='case-links'>
           <div className="work">
-            <h1>
+            <h2>
             <span className='caseNumber'> 01. </span>
             <span className='caseTitle'>June</span>
-            </h1>
+            </h2>
             <p className="tag">Website Design & Development</p>
           </div>
         </a>
@@ -22,10 +22,10 @@ function Work() {
           return(
             <Link to={`/${item.id}`} className={item.cName}>
               <div className="work">
-                <h1>
+                <h2>
                   <span className='caseNumber'> 0{item.number}.</span> 
                   <span className="workTitle"> {item.title}</span>
-                </h1>
+                </h2>
                 <p className='tag'>{item.tags}</p>
               </div>
             </Link>

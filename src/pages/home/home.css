@@ -60,7 +60,7 @@
     position: absolute;
     top: 1em;
     right: 0;
-    height: 44px;
+    height: 32px;
     width: 150px;
     text-align: right;
 }
@@ -77,7 +77,7 @@
 
 .workLinkText{
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.17em;
     right: 0;
     opacity: 0;
     font-weight: 600;

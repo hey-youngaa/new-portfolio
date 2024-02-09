@@ -9,12 +9,12 @@ function About() {
       <div className="aboutSection">
         <div className="profileTextWrapper">
           <h1>Hi there!</h1>
-          <p className='aboutText'>
+          <h2 className='aboutText'>
             It's nice to meet you, I'm Jessica.<br/><br/>My curious nature led me to the digital world and 
             I've been enjoying the learning process behind UX/UI design and web development. I'm interested
             in creating impactful and intuitive experiences and am currently looking for opportunities to
             grow in the design field.
-          </p>
+          </h2>
         </div>
         <div className="profileImgWrapper">
           <img src={me} alt='profile' />

@@ -20,7 +20,7 @@ function Home() {
         <div className="block">
           <img src={june} alt="" className='workCover'/>
           <div className="workDetails">
-            <h2>JUNE</h2>
+            <h3>JUNE</h3>
             <p>Portfolio design and development for the Providence-based artist.</p>
             <a href='https://elephantinthesnake.com/' rel='noreferrer' target='_blank' className='workLink'>
               <div className="workLinkBox">
@@ -34,7 +34,7 @@ function Home() {
         <div className="block">
           <img src={homeCover} alt=''  className='workCover'/>
           <div className="workDetails">
-            <h2>The Cozy Space</h2>
+            <h3>The Cozy Space</h3>
             <p>App design and prototype for a home furniture & decor concept</p>
             <Link to={'/home-shopping-concept'} className='workLink'>
               <div className="workLinkBox">
@@ -48,7 +48,7 @@ function Home() {
         <div className="block">
           <img src={codibook} alt="" className='workCover'/>
           <div className="workDetails">
-            <h2>Codibook</h2>
+            <h3>Codibook</h3>
             <p>PDP design of a korean fashion eccomerce website</p>
             <Link to={'/codibook-PDP'} className='workLink'>
               <div className="workLinkBox">

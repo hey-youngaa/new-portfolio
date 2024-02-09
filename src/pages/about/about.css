@@ -27,6 +27,7 @@
 .aboutText{
     position: relative;
     top: -2rem;
+    font-weight: 300;
 }
 
 .profileImgWrapper{
@@ -84,6 +85,9 @@
         padding: 0 10vw;
     }
 
+    .aboutText{
+        top: 0;
+    }
     .profileImgWrapper{
         place-self: center;
     }
