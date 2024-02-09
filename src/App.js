@@ -9,7 +9,7 @@ import Work from './pages/work/Work'
 
 function App() {
   return (
-    <Router basename='/new-portfolio'>
+    <Router>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />}/>
