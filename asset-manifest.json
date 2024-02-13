@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24e0d107.css",
-    "main.js": "/static/js/main.29a310b9.js",
+    "main.js": "/static/js/main.a68938dc.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
@@ -85,17 +85,17 @@
     "static/media/web2.png": "/static/media/web2.a415191cb6b104a9f3d1.png",
     "static/media/bakeryMobile.jpg": "/static/media/bakeryMobile.befc8eebe4fb1301ed3a.jpg",
     "static/media/webia.png": "/static/media/webia.9702ba36c6bb848f942a.png",
-    "static/media/resume.pdf": "/static/media/resume.e1ccb5952686c70939cc.pdf",
+    "static/media/resume.pdf": "/static/media/resume.bc0f89f7c37b2fa56a8c.pdf",
     "static/media/ys8.png": "/static/media/ys8.60df4619bd18a10446a2.png",
     "static/media/cb10.png": "/static/media/cb10.23ab6e698a92590ff18e.png",
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
     "main.24e0d107.css.map": "/static/css/main.24e0d107.css.map",
-    "main.29a310b9.js.map": "/static/js/main.29a310b9.js.map"
+    "main.a68938dc.js.map": "/static/js/main.a68938dc.js.map"
   },
   "entrypoints": [
     "static/css/main.24e0d107.css",
-    "static/js/main.29a310b9.js"
+    "static/js/main.a68938dc.js"
   ]
 }
