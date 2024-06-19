@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24e0d107.css",
-    "main.js": "/static/js/main.a68938dc.js",
+    "main.js": "/static/js/main.e3e50919.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
@@ -70,6 +70,7 @@
     "static/media/web3.png": "/static/media/web3.299a0daf9cd99e263a53.png",
     "static/media/cozylofi2.png": "/static/media/cozylofi2.95805b3f0a4be742c702.png",
     "static/media/cozylofi1.png": "/static/media/cozylofi1.65acb61db4e1cf62fb43.png",
+    "static/media/juneWork.jpg": "/static/media/juneWork.e1776174d0d6d709d1c4.jpg",
     "static/media/la5.png": "/static/media/la5.833d5efb3341461a4657.png",
     "static/media/cozyia.png": "/static/media/cozyia.bda2fce5fb22575791d0.png",
     "static/media/bakeryWeb.jpg": "/static/media/bakeryWeb.7a1f57f5a5f32d5e615a.jpg",
@@ -79,7 +80,6 @@
     "static/media/cb2.png": "/static/media/cb2.71c5ab4caa27bd8ff35d.png",
     "static/media/applofi2.jpg": "/static/media/applofi2.c3acdba31bbf13e2e74d.jpg",
     "static/media/codibook.jpg": "/static/media/codibook.ff0f44106753a66dbc81.jpg",
-    "static/media/juneWork.jpg": "/static/media/juneWork.787b47fb56c481154563.jpg",
     "static/media/app2.jpg": "/static/media/app2.f7ed4aa7fa8c232ae9b3.jpg",
     "static/media/la2.png": "/static/media/la2.b6830a1babe3bbb0b57e.png",
     "static/media/web2.png": "/static/media/web2.a415191cb6b104a9f3d1.png",
@@ -92,10 +92,10 @@
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
     "main.24e0d107.css.map": "/static/css/main.24e0d107.css.map",
-    "main.a68938dc.js.map": "/static/js/main.a68938dc.js.map"
+    "main.e3e50919.js.map": "/static/js/main.e3e50919.js.map"
   },
   "entrypoints": [
     "static/css/main.24e0d107.css",
-    "static/js/main.a68938dc.js"
+    "static/js/main.e3e50919.js"
   ]
 }
