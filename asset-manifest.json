@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.24e0d107.css",
-    "main.js": "/static/js/main.53aaa9fb.js",
+    "main.js": "/static/js/main.ab4f79e7.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
@@ -71,8 +71,8 @@
     "static/media/web3.png": "/static/media/web3.299a0daf9cd99e263a53.png",
     "static/media/cozylofi2.png": "/static/media/cozylofi2.95805b3f0a4be742c702.png",
     "static/media/cozylofi1.png": "/static/media/cozylofi1.65acb61db4e1cf62fb43.png",
-    "static/media/juneWork.jpg": "/static/media/juneWork.e1776174d0d6d709d1c4.jpg",
     "static/media/la5.png": "/static/media/la5.833d5efb3341461a4657.png",
+    "static/media/juneWork.jpeg": "/static/media/juneWork.a32182e5ce2208604b42.jpeg",
     "static/media/cozyia.png": "/static/media/cozyia.bda2fce5fb22575791d0.png",
     "static/media/bakeryWeb.jpg": "/static/media/bakeryWeb.7a1f57f5a5f32d5e615a.jpg",
     "static/media/cbPdp.jpg": "/static/media/cbPdp.5e5be22099d3a15b62e6.jpg",
@@ -93,10 +93,10 @@
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
     "main.24e0d107.css.map": "/static/css/main.24e0d107.css.map",
-    "main.53aaa9fb.js.map": "/static/js/main.53aaa9fb.js.map"
+    "main.ab4f79e7.js.map": "/static/js/main.ab4f79e7.js.map"
   },
   "entrypoints": [
     "static/css/main.24e0d107.css",
-    "static/js/main.53aaa9fb.js"
+    "static/js/main.ab4f79e7.js"
   ]
 }
