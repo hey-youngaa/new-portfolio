@@ -4,10 +4,12 @@
 
 .caseNumber{
     font-family: brema;
+    padding-left: 4px;
 }
 
 .tag{
     display: inline;
+    padding-right: 4px;
 }
 
 .work{
@@ -16,6 +18,10 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid black;
+}
+
+img{
+    border-radius: 0;
 }
 
 
