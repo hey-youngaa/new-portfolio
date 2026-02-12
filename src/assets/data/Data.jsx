@@ -1,4 +1,3 @@
-import behance from '../../assets/images/behance.png'
 import linkedIn from '../../assets/images/linkedin.png'
 import email from '../../assets/images/email.png'
 import file from '../../assets/images/file.png'
@@ -6,15 +5,23 @@ import resume from '../../assets/documents/resume.pdf'
 
 import homeDecor from '../../assets/images/homeDecor.jpg'
 import cozyproto from '../../assets/images/cozyproto.gif'
-import cozy from '../../assets/images/cozy.png'
-import cozy1 from '../../assets/images/cozy1.png'
-import cozy2 from '../../assets/images/cozy2.png'
-import cozy3 from '../../assets/images/cozy3.png'
-import cozy4 from '../../assets/images/cozy4.png'
-import cozylofi1 from '../../assets/images/cozylofi1.png'
-import cozylofi2 from '../../assets/images/cozylofi2.png'
-import cozymock1 from '../../assets/images/cozymock1.png'
-import cozymock2 from '../../assets/images/cozymock2.png'
+import cozy1 from '../../assets/images/cozySpace_01.png'
+import cozy2 from '../../assets/images/cozySpace_02.png'
+import cozy3 from '../../assets/images/cozySpace_03.png'
+import cozy4 from '../../assets/images/cozySpace_04.png'
+import cozy5 from '../../assets/images/cozySpace_05.png'
+import cozy6 from '../../assets/images/cozySpace_06.png'
+import cozy7 from '../../assets/images/cozySpace_07.png'
+import cozy8 from '../../assets/images/cozySpace_08.png'
+import cozy9 from '../../assets/images/cozySpace_09.png'
+import cozy10 from '../../assets/images/cozySpace_010.png'
+import cozy11 from '../../assets/images/cozySpace_011.png'
+import cozy12 from '../../assets/images/cozySpace_012.png'
+import cozy13 from '../../assets/images/cozySpace_013.png'
+import cozy14 from '../../assets/images/cozySpace_014.png'
+import cozy15 from '../../assets/images/cozySpace_015.png'
+import cozy16 from '../../assets/images/cozySpace_016.png'
+import cozy17 from '../../assets/images/cozySpace_017.png'
 import cozyia from '../../assets/images/cozyia.png'
 import cozyresp from '../../assets/images/cozyresp.png'
 
@@ -80,6 +87,7 @@ import la8 from '../../assets/images/la8.png'
 import la9 from '../../assets/images/la9.png'
 
 import heart from '../../assets/images/heart.png'
+import inner from '../../assets/images/inner.png'
 import chrome from '../../assets/images/chrome.png'
 import vaccine from '../../assets/images/vaccine.png'
 import pearls from '../../assets/images/pearl.gif'
@@ -125,12 +133,6 @@ export const footerItems = [
         image: linkedIn,
         url: 'https://www.linkedin.com/in/heyyoungaa',
         cName: 'footer-links'
-    },
-    {
-        title: 'Behance',
-        image: behance,
-        url: 'https://www.behance.net/heyyoungaa',
-        cName: 'footer-links'
     }
 ]
 
@@ -144,15 +146,11 @@ export const projects = [
         tags: 'App Design · UX/UI',
         images: [
             {
-                image: cozy,
+                image: cozy1,
                 alt: 'interior design case study page'
             },
             {
                 image: cozy2,
-                alt: 'interior design case study page'
-            },
-            {
-                image: cozy1,
                 alt: 'interior design case study page'
             },
             {
@@ -164,19 +162,55 @@ export const projects = [
                 alt: 'interior design case study page'
             },
             {
-                image: cozylofi1,
+                image: cozy5,
                 alt: 'interior design case study page'
             },
             {
-                image: cozylofi2,
+                image: cozy6,
                 alt: 'interior design case study page'
             },
             {
-                image: cozymock1,
+                image: cozy7,
                 alt: 'interior design case study page'
             },
             {
-                image: cozymock2,
+                image: cozy8,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy9,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy10,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy11,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy12,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy13,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy14,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy15,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy16,
+                alt: 'interior design case study page'
+            },
+            {
+                image: cozy17,
                 alt: 'interior design case study page'
             },
             {
@@ -452,6 +486,10 @@ export const projects = [
 ]
 
 export const blenderWork = [
+    {
+        image: inner,
+        alt: 'soft orb admist flowers'
+    },
     {
         image: shiny,
         alt: 'Shiny'
