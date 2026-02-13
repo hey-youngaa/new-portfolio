@@ -52,16 +52,6 @@ import webpdp from '../../assets/images/webpdp.png'
 import weborder from '../../assets/images/weborder.png'
 import webmock from '../../assets/images/webmock.gif'
 
-import ysEmail from '../../assets/images/ysEmail.png'
-import ys1 from '../../assets/images/ys1.png'
-import ys2 from '../../assets/images/ys2.png'
-import ys3 from '../../assets/images/ys3.png'
-import ys4 from '../../assets/images/ys4.png'
-import ys5 from '../../assets/images/ys5.png'
-import ys6 from '../../assets/images/ys6.png'
-import ys7 from '../../assets/images/ys7.png'
-import ys8 from '../../assets/images/ys8.png'
-
 import cbPdp from '../../assets/images/cbPdp.jpg'
 import cb1 from '../../assets/images/cb1.png'
 import cb2 from '../../assets/images/cb2.png'
@@ -96,6 +86,19 @@ import pinkPlanet from '../../assets/images/pinkPlanet.gif'
 import spiningName from '../../assets/images/spinningName.gif'
 import wave from '../../assets/images/wave.gif'
 import pinkPool from '../../assets/images/pinkPool.png'
+
+import ht from '../../assets/images/ht.jpg'
+import ht1 from '../../assets/images/ht_01.png'
+import ht2 from '../../assets/images/ht_02.png'
+import ht3 from '../../assets/images/ht_03.png'
+import ht4 from '../../assets/images/ht_04.png'
+import ht5 from '../../assets/images/ht_05.png'
+import ht6 from '../../assets/images/ht_06.png'
+import ht7 from '../../assets/images/ht_07.png'
+import ht8 from '../../assets/images/ht_08.png'
+import ht9 from '../../assets/images/ht_09.png'
+import ht10 from '../../assets/images/ht_010.png'
+import ht11 from '../../assets/images/ht_011.png'
 
 export const NavItems = [
     {
@@ -138,8 +141,62 @@ export const footerItems = [
 
 export const projects = [
     {
-        id: 'home-shopping-concept',
+        id: 'harris-teeter-redesign',
         number: 2,
+        cover: ht,
+        title: 'Harris Design Mobile App Redesign',
+        cName: 'case-links',
+        tags: 'App Design · UX/UI',
+        images: [
+            {
+                image: ht1,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht2,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht3,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht4,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht5,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht6,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht7,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht8,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht9,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht10,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht11,
+                alt: 'harris teeter redesign case study cover page'
+            }
+        ]
+    },
+    {
+        id: 'home-shopping-concept',
+        number: 3,
         cover: homeDecor,
         title: 'Home Decor & Furniture App',
         cName: 'case-links',
@@ -229,7 +286,7 @@ export const projects = [
     },
     {
         id: 'codibook-PDP',
-        number: 3,
+        number: 4,
         cover: cbPdp,
         title: 'Codibook PDP',
         cName: 'case-links',
@@ -283,7 +340,7 @@ export const projects = [
     },
     {
         id: 'bakery-website-concept',
-        number: 4,
+        number: 5,
         cover: bakeryWeb,
         title: 'Bakery Website',
         cName: 'case-links',
@@ -342,7 +399,7 @@ export const projects = [
     },
     {
         id: 'bakery-app-concept',
-        number: 5,
+        number: 6,
         cover: bakeryMobile,
         title: 'Bakery Mobile App',
         cName: 'case-links',
@@ -397,7 +454,7 @@ export const projects = [
     },
     {
         id: 'gym-landing-page',
-        number: 6,
+        number: 7,
         cover: laWeb,
         title: 'LA Fitness Home Page',
         cName: 'case-links',
@@ -438,48 +495,6 @@ export const projects = [
             {
                 image: la9,
                 alt: 'gym landing study page'
-            }
-        ]
-    },
-    {
-        id: 'yesstyle-email-template',
-        number: 7,
-        cover: ysEmail,
-        title: 'YesStyle Email Template',
-        cName: 'case-links',
-        tags: 'Email Design',
-        images: [
-            {
-                image: ys1,
-                alt: 'yesstyle email study page'
-            },
-            {
-                image: ys2,
-                alt: 'yesstyle email study page'
-            },
-            {
-                image: ys3,
-                alt: 'yesstyle email study page'
-            },
-            {
-                image: ys4,
-                alt: 'yesstyle email study page'
-            },
-            {
-                image: ys5,
-                alt: 'yesstyle email study page'
-            },
-            {
-                image: ys6,
-                alt: 'yesstyle email study page'
-            },
-            {
-                image: ys7,
-                alt: 'yesstyle email study page'
-            },
-            {
-                image: ys8,
-                alt: 'yesstyle email study page'
             }
         ]
     }
