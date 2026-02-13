@@ -144,7 +144,7 @@ export const projects = [
         id: 'harris-teeter-redesign',
         number: 2,
         cover: ht,
-        title: 'Harris Design Mobile App Redesign',
+        title: 'Harris Teeter Mobile App Redesign',
         cName: 'case-links',
         tags: 'App Design · UX/UI',
         images: [
