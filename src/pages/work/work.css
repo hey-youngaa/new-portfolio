@@ -1,32 +1,54 @@
+.workContainer{
+    min-height: calc(100vh - 283px);
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2% 10%;
+    gap: 20px;
+}
+.caseStudies{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}    
+
 .case-links{
     text-decoration: none;
 }
 
-.caseNumber{
-    font-family: brema;
-    padding-left: 4px;
+.caseStudy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
 }
-
 .tag{
     display: inline;
     padding-right: 4px;
 }
 
-.work{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid black;
-}
 
-img{
-    border-radius: 0;
+.creativeItem{
+    max-width: 1000px;
 }
+.creativeItem .imageWrapper{
+    position: relative;
+    display: inline-block;
+    border-radius: 40% 40% 55% 45% / 55% 60% 40% 45%;
+    overflow: hidden;
+}
+.imageWrapper img{
+    max-width: 800px;
+    display: block;
+    transition: transform 0.2s ease;
+    border-radius: 40% 40% 55% 45% / 55% 60% 40% 45%;
+}
+.creativeTitle{font-weight: bold;}
 
 
 @media screen and (max-width:760px) {
-    .work{
+    .caseStudy{
         flex-direction: column;
         align-items: flex-start;
     }
