@@ -1,3 +1,6 @@
+h1 {
+    display: none;
+}
 .aboutContainer{
     background-color: #f7f7f7;
     min-height: calc(100vh - 283px);
@@ -17,17 +20,25 @@
 }
 
 .profileTextWrapper{
-    align-self: start;
+   display: flex;
+   flex-direction: column;
 }
 
-.profileTextWrapper h1{
+.profileTextWrapper h2{
     margin-top: 0;
+    font-size: 2em;
 }
 
 .aboutText{
     position: relative;
-    top: -2rem;
-    font-weight: 300;
+    font-size: 1.5em;
+}
+
+.aboutText img{
+    display: inline-block;
+    max-height: 1em;
+    width: auto;
+    vertical-align: middle;
 }
 
 .profileImgWrapper{
@@ -37,9 +48,9 @@
 
 .profileImgWrapper img{
     display: block;
-    max-width: 500px;
+    max-width: 700px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 65% 45% 60% 45% / 55% 66% 40% 45%;
 }
 
 .marquee{
