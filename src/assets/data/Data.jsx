@@ -76,14 +76,11 @@ import la7 from '../../assets/images/la7.png'
 import la8 from '../../assets/images/la8.png'
 import la9 from '../../assets/images/la9.png'
 
-import heart from '../../assets/images/heart.png'
+
 import inner from '../../assets/images/inner.png'
 import chrome from '../../assets/images/chrome.png'
-import vaccine from '../../assets/images/vaccine.png'
 import pearls from '../../assets/images/pearl.gif'
 import shiny from '../../assets/images/pinkAndGreen.gif'
-import pinkPlanet from '../../assets/images/pinkPlanet.gif'
-import spiningName from '../../assets/images/spinningName.gif'
 import wave from '../../assets/images/wave.gif'
 import pinkPool from '../../assets/images/pinkPool.png'
 
@@ -99,6 +96,8 @@ import ht8 from '../../assets/images/ht_08.png'
 import ht9 from '../../assets/images/ht_09.png'
 import ht10 from '../../assets/images/ht_010.png'
 import ht11 from '../../assets/images/ht_011.png'
+import ht12 from '../../assets/images/ht_012.png'
+import ht13 from '../../assets/images/ht_013.png'
 
 export const NavItems = [
     {
@@ -142,7 +141,7 @@ export const footerItems = [
 export const projects = [
     {
         id: 'harris-teeter-redesign',
-        number: 2,
+        number: 1,
         cover: ht,
         title: 'Harris Teeter Mobile App Redesign',
         cName: 'case-links',
@@ -191,12 +190,20 @@ export const projects = [
             {
                 image: ht11,
                 alt: 'harris teeter redesign case study cover page'
-            }
+            },
+            {
+                image: ht12,
+                alt: 'harris teeter redesign case study cover page'
+            },
+            {
+                image: ht13,
+                alt: 'harris teeter redesign case study cover page'
+            },
         ]
     },
     {
         id: 'home-shopping-concept',
-        number: 3,
+        number: 2,
         cover: homeDecor,
         title: 'Home Decor & Furniture App',
         cName: 'case-links',
@@ -286,7 +293,7 @@ export const projects = [
     },
     {
         id: 'codibook-PDP',
-        number: 4,
+        number: 3,
         cover: cbPdp,
         title: 'Codibook PDP',
         cName: 'case-links',
@@ -340,7 +347,7 @@ export const projects = [
     },
     {
         id: 'bakery-website-concept',
-        number: 5,
+        number: 4,
         cover: bakeryWeb,
         title: 'Bakery Website',
         cName: 'case-links',
@@ -399,7 +406,7 @@ export const projects = [
     },
     {
         id: 'bakery-app-concept',
-        number: 6,
+        number: 5,
         cover: bakeryMobile,
         title: 'Bakery Mobile App',
         cName: 'case-links',
@@ -454,7 +461,7 @@ export const projects = [
     },
     {
         id: 'gym-landing-page',
-        number: 7,
+        number: 6,
         cover: laWeb,
         title: 'LA Fitness Home Page',
         cName: 'case-links',
@@ -524,22 +531,5 @@ export const blenderWork = [
     {
         image: pearls,
         alt: 'Pearls in Space'
-    },
-    {
-        image: pinkPlanet,
-        alt: 'Pink planet scene'
-    },
-    {
-        image: spiningName,
-        alt:'spinning logo'
-    },
-
-    {
-        image: heart,
-        alt: 'Glass Heart'
-    },
-    {
-        image: vaccine,
-        alt: 'Vaccine Bottle'
-    },
+    }
 ]
