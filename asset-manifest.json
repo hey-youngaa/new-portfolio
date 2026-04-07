@@ -1,19 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.d41d23e0.css",
-    "main.js": "/static/js/main.b2624caf.js",
+    "main.css": "/static/css/main.65c9e99f.css",
+    "main.js": "/static/js/main.313c8b0b.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
     "static/media/me.JPG": "/static/media/me.1fdaec1adfdcb4b76ec4.JPG",
     "static/media/cozyproto.gif": "/static/media/cozyproto.112dfbe5431875472647.gif",
     "static/media/pinkAndGreen.gif": "/static/media/pinkAndGreen.e1f14c067ee0b4da6b3e.gif",
-    "static/media/pinkPlanet.gif": "/static/media/pinkPlanet.133c9bc1ad86c1b9ab1c.gif",
     "static/media/cozySpace_011.png": "/static/media/cozySpace_011.4020df87b074964b9120.png",
-    "static/media/spinningName.gif": "/static/media/spinningName.01fe3dd7ddf667ab2aa3.gif",
-    "static/media/vaccine.png": "/static/media/vaccine.dd9057ef0c144874ce68.png",
     "static/media/chrome.png": "/static/media/chrome.d738b2e0c621e5dd6310.png",
-    "static/media/heart.png": "/static/media/heart.a69bebfdc1d4e5d4c5eb.png",
     "static/media/laWeb.png": "/static/media/laWeb.225ca3d18c01be46c526.png",
     "static/media/appproto.gif": "/static/media/appproto.c59a15bd991ae72caaca.gif",
     "static/media/ZenKakuGothicNew.ttf": "/static/media/ZenKakuGothicNew.256c72f034acaadc5812.ttf",
@@ -103,11 +99,11 @@
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
-    "main.d41d23e0.css.map": "/static/css/main.d41d23e0.css.map",
-    "main.b2624caf.js.map": "/static/js/main.b2624caf.js.map"
+    "main.65c9e99f.css.map": "/static/css/main.65c9e99f.css.map",
+    "main.313c8b0b.js.map": "/static/js/main.313c8b0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.d41d23e0.css",
-    "static/js/main.b2624caf.js"
+    "static/css/main.65c9e99f.css",
+    "static/js/main.313c8b0b.js"
   ]
 }
