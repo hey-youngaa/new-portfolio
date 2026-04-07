@@ -16,10 +16,11 @@ function Details() {
   
 
   return (
-    <div>
+    <div style={{backgroundColor: '#f7f7f7'}}>
         {study ? (
             <OneCol gallery={study.images} />
         ) : null}
+
     </div>
   )
 }
