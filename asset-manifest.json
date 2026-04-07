@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.537b7944.css",
-    "main.js": "/static/js/main.927ea0fd.js",
+    "main.css": "/static/css/main.d41d23e0.css",
+    "main.js": "/static/js/main.b2624caf.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
+    "static/media/me.JPG": "/static/media/me.1fdaec1adfdcb4b76ec4.JPG",
     "static/media/cozyproto.gif": "/static/media/cozyproto.112dfbe5431875472647.gif",
     "static/media/pinkAndGreen.gif": "/static/media/pinkAndGreen.e1f14c067ee0b4da6b3e.gif",
     "static/media/pinkPlanet.gif": "/static/media/pinkPlanet.133c9bc1ad86c1b9ab1c.gif",
@@ -23,7 +24,6 @@
     "static/media/cozySpace_016.png": "/static/media/cozySpace_016.c3e94849da82389b3d77.png",
     "static/media/ht_09.png": "/static/media/ht_09.1a040458b160af336216.png",
     "static/media/ht_010.png": "/static/media/ht_010.c1dbdc78f5a6ffe2fa8c.png",
-    "static/media/me.jpg": "/static/media/me.20cac7dec47bb8039308.jpg",
     "static/media/pinkPool.png": "/static/media/pinkPool.7fcf4f9e1a52582f3bf5.png",
     "static/media/la6.png": "/static/media/la6.4ac106c74f25bb3da2e2.png",
     "static/media/cozySpace_015.png": "/static/media/cozySpace_015.7df014ad228ac858dd42.png",
@@ -35,6 +35,7 @@
     "static/media/la8.png": "/static/media/la8.e7bc0c711d071e9481e5.png",
     "static/media/web1.png": "/static/media/web1.4ba14d8592c5807b26d7.png",
     "static/media/app1.jpg": "/static/media/app1.5dbe359a400a803c979c.jpg",
+    "static/media/cat.png": "/static/media/cat.5c0c69dde15338cdc5b8.png",
     "static/media/webpdp.png": "/static/media/webpdp.759c4a9066c2a3f06647.png",
     "static/media/ht_06.png": "/static/media/ht_06.97d987a324bc5e64b5f3.png",
     "static/media/la1.png": "/static/media/la1.421cff8f164a7716b3ef.png",
@@ -102,11 +103,11 @@
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
-    "main.537b7944.css.map": "/static/css/main.537b7944.css.map",
-    "main.927ea0fd.js.map": "/static/js/main.927ea0fd.js.map"
+    "main.d41d23e0.css.map": "/static/css/main.d41d23e0.css.map",
+    "main.b2624caf.js.map": "/static/js/main.b2624caf.js.map"
   },
   "entrypoints": [
-    "static/css/main.537b7944.css",
-    "static/js/main.927ea0fd.js"
+    "static/css/main.d41d23e0.css",
+    "static/js/main.b2624caf.js"
   ]
 }
