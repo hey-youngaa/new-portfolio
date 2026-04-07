@@ -15,10 +15,6 @@
     margin-bottom: 2vw;
 }
 
-.introText span{
-    font-family: brema;
-    font-style: italic;
-}
 .introText img{
     display: inline-block;
     max-height: 1em;
@@ -52,6 +48,7 @@
 
 .workDetails p{
     max-width: 85%;
+    margin: 0 .25rem 0;
 }
 .workLink{
     text-decoration: none;

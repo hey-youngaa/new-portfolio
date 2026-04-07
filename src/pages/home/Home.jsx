@@ -1,7 +1,6 @@
 import React from 'react'
 import './home.css'
-import choco from '../../assets/images/choco.png'
-import june from '../../assets/images/juneWork.jpeg'
+
 import { Link } from 'react-router-dom'
 import homeCover from '../../assets/images/homeDecor.jpg'
 import ht from '../../assets/images/ht.jpg'
@@ -10,12 +9,12 @@ import arrow from '../../assets/images/arrow-up-right.svg'
 function Home() {
   return (
     <div className='homeContainer'>
-      <div className="introText">
-        <span>Self taught</span> UX/UI designer and web developer. Born and raised in the Maryland suburbs.
-        Cat lover <img src={choco} alt='cat'/> and nature documentaries enthusiast
-      </div>
+      <p className='introText'>
+        Hi! 👋 I'm Jessica, a UX/UI & Product Designer who combines data-driven thinking and empathy to create
+        inuitive, user-centered experiences.
+      </p>
 
-      <h2>Recent Works</h2>
+      <h2>Featured Case Studies</h2>
       <div className="workSection">
 
         <div className="block">
@@ -29,19 +28,6 @@ function Home() {
                 <div className="workLinkText">View Project</div>
               </div>
             </Link>
-          </div>
-        </div>
-        <div className="block">
-          <img src={june} alt="" className='workCover'/>
-          <div className="workDetails">
-            <h3>JUNE</h3>
-            <p>Portfolio design and development for the Providence-based artist</p>
-            <a href='https://elephantinthesnake.com/' rel='noreferrer' target='_blank' className='workLink'>
-              <div className="workLinkBox">
-                <img src={arrow} alt='link arrow' />
-                <div className="workLinkText">View Website</div>
-              </div>
-            </a>
           </div>
         </div>
 
