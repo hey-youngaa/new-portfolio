@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.93b73595.css",
-    "main.js": "/static/js/main.0399d0db.js",
+    "main.js": "/static/js/main.02fb496f.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
@@ -96,16 +96,16 @@
     "static/media/cozySpace_08.png": "/static/media/cozySpace_08.d708e7b9a24ba90e2b4a.png",
     "static/media/webia.png": "/static/media/webia.9702ba36c6bb848f942a.png",
     "static/media/homeDecor.jpg": "/static/media/homeDecor.11f3b4d78cb8f466793f.jpg",
-    "static/media/resume.pdf": "/static/media/resume.0b817183208c0cc1125e.pdf",
+    "static/media/resume.pdf": "/static/media/resume.bf03490cae1607dd0c94.pdf",
     "static/media/cb10.png": "/static/media/cb10.23ab6e698a92590ff18e.png",
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
     "main.93b73595.css.map": "/static/css/main.93b73595.css.map",
-    "main.0399d0db.js.map": "/static/js/main.0399d0db.js.map"
+    "main.02fb496f.js.map": "/static/js/main.02fb496f.js.map"
   },
   "entrypoints": [
     "static/css/main.93b73595.css",
-    "static/js/main.0399d0db.js"
+    "static/js/main.02fb496f.js"
   ]
 }
