@@ -5,25 +5,24 @@ import resume from '../../assets/documents/resume.pdf'
 
 import homeDecor from '../../assets/images/homeDecor.jpg'
 import cozyproto from '../../assets/images/cozyproto.gif'
-import cozy1 from '../../assets/images/cozySpace_01.png'
-import cozy2 from '../../assets/images/cozySpace_02.png'
-import cozy3 from '../../assets/images/cozySpace_03.png'
-import cozy4 from '../../assets/images/cozySpace_04.png'
-import cozy5 from '../../assets/images/cozySpace_05.png'
-import cozy6 from '../../assets/images/cozySpace_06.png'
-import cozy7 from '../../assets/images/cozySpace_07.png'
-import cozy8 from '../../assets/images/cozySpace_08.png'
-import cozy9 from '../../assets/images/cozySpace_09.png'
-import cozy10 from '../../assets/images/cozySpace_010.png'
-import cozy11 from '../../assets/images/cozySpace_011.png'
-import cozy12 from '../../assets/images/cozySpace_012.png'
-import cozy13 from '../../assets/images/cozySpace_013.png'
-import cozy14 from '../../assets/images/cozySpace_014.png'
-import cozy15 from '../../assets/images/cozySpace_015.png'
-import cozy16 from '../../assets/images/cozySpace_016.png'
-import cozy17 from '../../assets/images/cozySpace_017.png'
-import cozyia from '../../assets/images/cozyia.png'
-import cozyresp from '../../assets/images/cozyresp.png'
+import cs1 from '../../assets/images/cs_01.png'
+import cs2 from '../../assets/images/cs_02.png'
+import cs3 from '../../assets/images/cs_03.png'
+import cs4 from '../../assets/images/cs_04.png'
+import cs5 from '../../assets/images/cs_05.png'
+import cs6 from '../../assets/images/cs_06.png'
+import cs7 from '../../assets/images/cs_07.png'
+import cs8 from '../../assets/images/cs_08.png'
+import cs9 from '../../assets/images/cs_09.png'
+import cs10 from '../../assets/images/cs_010.png'
+import cs11 from '../../assets/images/cs_011.png'
+import cs12 from '../../assets/images/cs_012.png'
+import cs13 from '../../assets/images/cs_013.png'
+import cs14 from '../../assets/images/cs_014.png'
+import cs15 from '../../assets/images/cs_015.png'
+import cs16 from '../../assets/images/cs_016.png'
+import cs17 from '../../assets/images/cs_017.png'
+
 
 import bakeryMobile from '../../assets/images/bakeryMobile.jpg'
 import app1 from '../../assets/images/app1.jpg'
@@ -98,6 +97,7 @@ import ht10 from '../../assets/images/ht_010.png'
 import ht11 from '../../assets/images/ht_011.png'
 import ht12 from '../../assets/images/ht_012.png'
 import ht13 from '../../assets/images/ht_013.png'
+import ht14 from '../../assets/images/ht_014.png'
 
 export const NavItems = [
     {
@@ -153,52 +153,56 @@ export const projects = [
             },
             {
                 image: ht2,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'harris teeter redesign project objectives'
             },
             {
                 image: ht3,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'why it matters that online grocery platforms are designed with clarity and efficiency'
             },
             {
                 image: ht4,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'general information on harris teeter, target users and purpose for redesign'
             },
             {
                 image: ht5,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'overall design thinking process explained '
             },
             {
                 image: ht6,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'reserach methods conducted to identify user pain points'
             },
             {
                 image: ht7,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'key insights on discoverability, information hierarchy and task flow issues'
             },
             {
                 image: ht8,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'before and wireframe of home screen with comments'
             },
             {
                 image: ht9,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'before and wireframe of save screen with comments'
             },
             {
                 image: ht10,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'before and wireframe of weekly ad screen with comments'
             },
             {
                 image: ht11,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'final mockups of home screen with comments'
             },
             {
                 image: ht12,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'final mockups of save screen with comments'
             },
             {
                 image: ht13,
-                alt: 'harris teeter redesign case study cover page'
+                alt: 'final mockups of weekly ad screen with comments'
             },
+            {
+                image: ht14,
+                alt: 'next steps for the harris teeter redesign case'
+            }
         ]
     },
     {
@@ -210,83 +214,75 @@ export const projects = [
         tags: 'App Design · UX/UI',
         images: [
             {
-                image: cozy1,
-                alt: 'interior design case study page'
+                image: cs1,
+                alt: 'cozy space case study cover slide'
             },
             {
-                image: cozy2,
-                alt: 'interior design case study page'
+                image: cs2,
+                alt: 'cozy space case study objectives'
             },
             {
-                image: cozy3,
-                alt: 'interior design case study page'
+                image: cs3,
+                alt: 'definition of accessible furniture, who uses it and why the market is underserved'
             },
             {
-                image: cozy4,
-                alt: 'interior design case study page'
+                image: cs4,
+                alt: 'design thinking process'
             },
             {
-                image: cozy5,
-                alt: 'interior design case study page'
+                image: cs5,
+                alt: 'public opinions on accessible furniture'
             },
             {
-                image: cozy6,
-                alt: 'interior design case study page'
+                image: cs6,
+                alt: 'competitive analysis with houzz, wayfair and stander'
             },
             {
-                image: cozy7,
-                alt: 'interior design case study page'
+                image: cs7,
+                alt: 'affinity map'
             },
             {
-                image: cozy8,
-                alt: 'interior design case study page'
+                image: cs8,
+                alt: 'key insights'
             },
             {
-                image: cozy9,
-                alt: 'interior design case study page'
+                image: cs9,
+                alt: 'early sketches and focus areas'
             },
             {
-                image: cozy10,
-                alt: 'interior design case study page'
+                image: cs10,
+                alt: 'low fidelity mockups'
             },
             {
-                image: cozy11,
-                alt: 'interior design case study page'
+                image: cs11,
+                alt: 'final mockup screen for home page'
             },
             {
-                image: cozy12,
-                alt: 'interior design case study page'
+                image: cs12,
+                alt: 'final mockup screen for search and filter'
             },
             {
-                image: cozy13,
-                alt: 'interior design case study page'
+                image: cs13,
+                alt: 'final mockup screen of product detail page'
             },
             {
-                image: cozy14,
-                alt: 'interior design case study page'
+                image: cs14,
+                alt: 'additional mockup screens'
             },
             {
-                image: cozy15,
-                alt: 'interior design case study page'
-            },
-            {
-                image: cozy16,
-                alt: 'interior design case study page'
-            },
-            {
-                image: cozy17,
-                alt: 'interior design case study page'
+                image: cs15,
+                alt: 'additional mockup screens'
             },
             {
                 image: cozyproto,
+                alt: 'prototype walkthrough'
+            },
+            {
+                image: cs16,
                 alt: 'interior design case study page'
             },
             {
-                image: cozyia,
-                alt: 'interior design case study page'
-            },
-            {
-                image: cozyresp,
+                image: cs17,
                 alt: 'interior design case study page'
             },
         ]
