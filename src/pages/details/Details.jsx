@@ -6,6 +6,7 @@ import OneCol from '../../components/onecol/OneCol'
 function Details() {
     let {id} = useParams()
     let [study, setStudy] = useState(null)
+    let [showTop, setShowTop] = useState(false)
 
     useEffect(() => {
         let study = projects.find((study) => study.id === id)
@@ -14,7 +15,19 @@ function Details() {
         }
     },[id])
   
+    // show "back up" button after scrolling
+    useEffect(() => {
+        const handleScroll = () => {
+            setShowTop(window.scrollY > 300)
+        }
 
+        window.addEventListener('scroll', handleScroll)
+        return () => window.removeEventListener('scroll', handleScroll)
+    }, [])
+
+    const scrollToTop = () => {
+        window.scrollTo({top: 0, behavior: 'smooth'})
+    }
   return (
     <div style={{backgroundColor: '#f7f7f7', display: 'flex', flexDirection: 'column', alignItems: 'center', padding: '20px 0'}}>
         {study ? (
@@ -28,6 +41,27 @@ function Details() {
         >
             Back to Work
         </Link>
+
+        {showTop && (
+            <button
+                onClick={scrollToTop}
+                style={{
+                    position:'fixed',
+                    bottom: '30px',
+                    right: '20px',
+                    height: '45px',
+                    borderRadius: '50% 50% 55% 45% / 70% 70% 40% 45%',
+                    cursor: 'pointer',
+                    fontSize: '18px',
+                    border: 'none',
+                    backgroundColor: '#006a38',
+                    color: 'white',
+                    zIndex: '10'
+                }}    
+            >
+                ↑
+            </button>
+        )}
     </div>
   )
 }
