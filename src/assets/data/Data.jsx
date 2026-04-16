@@ -22,7 +22,7 @@ import cs14 from '../../assets/images/cs_014.png'
 import cs15 from '../../assets/images/cs_015.png'
 import cs16 from '../../assets/images/cs_016.png'
 import cs17 from '../../assets/images/cs_017.png'
-
+import cs18 from '../../assets/images/cs_018.png'
 
 import bakeryMobile from '../../assets/images/bakeryMobile.jpg'
 import app1 from '../../assets/images/app1.jpg'
@@ -279,11 +279,15 @@ export const projects = [
             },
             {
                 image: cs16,
-                alt: 'interior design case study page'
+                alt: 'site map of web platform'
             },
             {
                 image: cs17,
-                alt: 'interior design case study page'
+                alt: 'responsive web layouts across phone, ipad and laptop'
+            },
+            {
+                image: cs18,
+                alt: 'next steps if the conceptual project were to launch'
             },
         ]
     },
