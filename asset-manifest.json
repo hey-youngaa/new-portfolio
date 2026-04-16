@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.93b73595.css",
-    "main.js": "/static/js/main.cc712bd3.js",
+    "main.js": "/static/js/main.22f13875.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
@@ -13,6 +13,7 @@
     "static/media/laWeb.png": "/static/media/laWeb.225ca3d18c01be46c526.png",
     "static/media/appproto.gif": "/static/media/appproto.c59a15bd991ae72caaca.gif",
     "static/media/ZenKakuGothicNew.ttf": "/static/media/ZenKakuGothicNew.256c72f034acaadc5812.ttf",
+    "static/media/cs_017.png": "/static/media/cs_017.5e41487a9706721ad854.png",
     "static/media/webhome.png": "/static/media/webhome.4b16a8a33ed1c10d94eb.png",
     "static/media/inner.png": "/static/media/inner.993741fde8bd02b2c480.png",
     "static/media/la4.png": "/static/media/la4.251415a1423dd307fce4.png",
@@ -29,7 +30,6 @@
     "static/media/appmock2.jpg": "/static/media/appmock2.c1cd88a9e5490d3aa558.jpg",
     "static/media/cs_011.png": "/static/media/cs_011.244e50ed01d2424b3b59.png",
     "static/media/appmock.jpg": "/static/media/appmock.ab92a6c751936b41d77b.jpg",
-    "static/media/cs_017.png": "/static/media/cs_017.a7212150cdbc55679c72.png",
     "static/media/cb4.png": "/static/media/cb4.1389893894c46731ae79.png",
     "static/media/cs_013.png": "/static/media/cs_013.40c96b5c26ef4b690bd1.png",
     "static/media/la8.png": "/static/media/la8.e7bc0c711d071e9481e5.png",
@@ -83,6 +83,7 @@
     "static/media/cb2.png": "/static/media/cb2.71c5ab4caa27bd8ff35d.png",
     "static/media/applofi2.jpg": "/static/media/applofi2.c3acdba31bbf13e2e74d.jpg",
     "static/media/ht_07.png": "/static/media/ht_07.d8d27166224f57abe0fc.png",
+    "static/media/cs_018.png": "/static/media/cs_018.bdc0c480c4229082b188.png",
     "static/media/cs_04.png": "/static/media/cs_04.be494684819899443d6d.png",
     "static/media/app2.jpg": "/static/media/app2.f7ed4aa7fa8c232ae9b3.jpg",
     "static/media/la2.png": "/static/media/la2.b6830a1babe3bbb0b57e.png",
@@ -90,9 +91,9 @@
     "static/media/ht.jpg": "/static/media/ht.5708d8c613bde29b7986.jpg",
     "static/media/web2.png": "/static/media/web2.a415191cb6b104a9f3d1.png",
     "static/media/bakeryMobile.jpg": "/static/media/bakeryMobile.befc8eebe4fb1301ed3a.jpg",
-    "static/media/cs_016.png": "/static/media/cs_016.1248a900b2696a378751.png",
     "static/media/ht_03.png": "/static/media/ht_03.ad2c3a572d17ec2142e7.png",
     "static/media/cs_02.png": "/static/media/cs_02.fe92c333b8d396994587.png",
+    "static/media/cs_016.png": "/static/media/cs_016.6ff8ace810b18141d3c4.png",
     "static/media/webia.png": "/static/media/webia.9702ba36c6bb848f942a.png",
     "static/media/homeDecor.jpg": "/static/media/homeDecor.11f3b4d78cb8f466793f.jpg",
     "static/media/resume.pdf": "/static/media/resume.9a2338b8eff7b399203b.pdf",
@@ -101,10 +102,10 @@
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
     "main.93b73595.css.map": "/static/css/main.93b73595.css.map",
-    "main.cc712bd3.js.map": "/static/js/main.cc712bd3.js.map"
+    "main.22f13875.js.map": "/static/js/main.22f13875.js.map"
   },
   "entrypoints": [
     "static/css/main.93b73595.css",
-    "static/js/main.cc712bd3.js"
+    "static/js/main.22f13875.js"
   ]
 }
