@@ -35,7 +35,7 @@ function Home() {
           <img src={homeCover} alt=''  className='workCover'/>
           <div className="workDetails">
             <h3>The Cozy Space</h3>
-            <p>App design and prototype for a home furniture & decor concept</p>
+            <p>Designing an accessible furniture shopping platform </p>
             <Link to={'/home-shopping-concept'} className='workLink'>
               <div className="workLinkBox">
                 <img src={arrow} alt='link arrow' />
