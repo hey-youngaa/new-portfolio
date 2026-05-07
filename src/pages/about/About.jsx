@@ -17,9 +17,10 @@ function About() {
             <p>
               It's nice to meet you, I'm Jessica. <br/>
               I'm a UX/UI designer and web developer, born and raised in the Maryland suburbs.
-              I'm a cat mom of two <img src={choco} alt='my oldest cat, Choco'/> <img src={cat} alt='my youngest cat, Siroo' />
-              a nature documentaries enthusiast, and I enjoy spending time outdoors. I'm naturally curious about how people
-              interact with the world around them, which often carries into how I approach design.
+              When I'm not designing, I'm usually watching nature documentaries, exploring the outdoors, or spending time with my 
+              two cats  <img src={choco} alt='my oldest cat, Choco'/> <img src={cat} alt='my youngest cat, Siroo' />
+              I'm naturally curious people and the ways they interact with the world around them, which often carries into how I approach
+              user-centered design.
             </p>
             <p>
               My background in biology sparked my interst in understanding and translating data into meaningful insights. And 
