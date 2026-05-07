@@ -7,6 +7,7 @@
     padding: 2% 10%;
     gap: 20px;
 }
+
 .caseStudies{
     display: flex;
     flex-direction: column;
@@ -28,21 +29,21 @@
     padding-right: 4px;
 }
 
-
-.creativeItem{
-    max-width: 1000px;
-}
+.creativeSection h2{font-size: 3rem;}
+.creativeItem{max-width: 800px;}
 .creativeItem .imageWrapper{
-    position: relative;
     display: inline-block;
-    border-radius: 40% 40% 55% 45% / 55% 60% 40% 45%;
+    border-radius: 40% 35% 55% 45% / 55% 55% 40% 45%;
     overflow: hidden;
 }
+
+.imageWrapper a{position: relative; display: inline-block;}
 .imageWrapper img{
-    max-width: 800px;
     display: block;
+    width: 100%;
+    height: auto;
     transition: transform 0.2s ease;
-    border-radius: 40% 40% 55% 45% / 55% 60% 40% 45%;
+    border-radius: inherit
 }
 .creativeTitle{font-weight: bold;}
 

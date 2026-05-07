@@ -1,5 +1,4 @@
 import React from 'react'
-
 import './work.css'
 import { projects } from '../../assets/data/Data'
 import june from '../../assets/images/juneWork.jpeg'
@@ -9,7 +8,7 @@ import { Link } from 'react-router-dom'
 function Work() {
   return (
     <div className="workContainer">
-      <h1>Work</h1>
+      <h1>UX/UI Work</h1>
 
       <div className="caseStudies">
         {projects.map((item) => {
