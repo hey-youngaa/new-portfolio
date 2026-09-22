@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { projects } from '../../assets/data/Data'
+import { projects, dataProjects } from '../../assets/data/Data'
 import OneCol from '../../components/onecol/OneCol'
 
 function Details() {
@@ -10,6 +10,9 @@ function Details() {
 
     useEffect(() => {
         let study = projects.find((study) => study.id === id)
+        if (!study) {
+        study = dataProjects.find((study) => study.id === id)
+    }
         if (study){
             setStudy(study)
         }
