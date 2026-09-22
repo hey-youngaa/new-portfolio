@@ -51,30 +51,6 @@ import webpdp from '../../assets/images/webpdp.png'
 import weborder from '../../assets/images/weborder.png'
 import webmock from '../../assets/images/webmock.gif'
 
-import cbPdp from '../../assets/images/cbPdp.jpg'
-import cb1 from '../../assets/images/cb1.png'
-import cb2 from '../../assets/images/cb2.png'
-import cb3 from '../../assets/images/cb3.png'
-import cb4 from '../../assets/images/cb4.png'
-import cb5 from '../../assets/images/cb5.png'
-import cb6 from '../../assets/images/cb6.png'
-import cb7 from '../../assets/images/cb7.png'
-import cb8 from '../../assets/images/cb8.png'
-import cb9 from '../../assets/images/cb9.png'
-import cb10 from '../../assets/images/cb10.png'
-import cb11 from '../../assets/images/cb11.png'
-
-import laWeb from '../../assets/images/laWeb.png'
-import la1 from '../../assets/images/la1.png'
-import la2 from '../../assets/images/la2.png'
-import la3 from '../../assets/images/la3.png'
-import la4 from '../../assets/images/la4.png'
-import la5 from '../../assets/images/la5.png'
-import la6 from '../../assets/images/la6.png'
-import la7 from '../../assets/images/la7.png'
-import la8 from '../../assets/images/la8.png'
-import la9 from '../../assets/images/la9.png'
-
 
 import inner from '../../assets/images/inner.png'
 import chrome from '../../assets/images/chrome.png'
@@ -98,6 +74,14 @@ import ht11 from '../../assets/images/ht_011.png'
 import ht12 from '../../assets/images/ht_012.png'
 import ht13 from '../../assets/images/ht_013.png'
 import ht14 from '../../assets/images/ht_014.png'
+
+import ch1 from '../../assets/images/ch_01.png'
+import ch2 from '../../assets/images/ch_02.png'
+import ch3 from '../../assets/images/ch_03.png'
+import ch4 from '../../assets/images/ch_04.png'
+import ch5 from '../../assets/images/ch_05.png'
+import ch6 from '../../assets/images/ch_06.png'
+import ch7 from '../../assets/images/ch_07.png'
 
 export const NavItems = [
     {
@@ -145,7 +129,7 @@ export const projects = [
         cover: ht,
         title: 'Harris Teeter Mobile App Redesign',
         cName: 'case-links',
-        tags: 'App Design · UX/UI',
+        tags: 'App Design',
         images: [
             {
                 image: ht1,
@@ -209,9 +193,9 @@ export const projects = [
         id: 'home-shopping-concept',
         number: 2,
         cover: homeDecor,
-        title: 'Home Decor & Furniture App',
+        title: 'Cozy Space — Accessible Furniture Mobile Experience ',
         cName: 'case-links',
-        tags: 'App Design · UX/UI',
+        tags: 'App Design',
         images: [
             {
                 image: cs1,
@@ -292,66 +276,12 @@ export const projects = [
         ]
     },
     {
-        id: 'codibook-PDP',
-        number: 3,
-        cover: cbPdp,
-        title: 'Codibook PDP',
-        cName: 'case-links',
-        tags:'PDP Design · UX/UI',
-        images: [
-            {
-                image: cb1,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb2,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb3,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb4,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb5,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb6,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb7,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb8,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb9,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb10,
-                alt: 'Codibook PDP case study page'
-            },
-            {
-                image: cb11,
-                alt: 'Codibook PDP case study page'
-            }
-        ]
-    },
-    {
         id: 'bakery-website-concept',
-        number: 4,
+        number: 3,
         cover: bakeryWeb,
         title: 'Bakery Website',
         cName: 'case-links',
-        tags: 'Web Design · UX/UI',
+        tags: 'Web Design',
         images: [
             {
                 image: web1,
@@ -406,11 +336,11 @@ export const projects = [
     },
     {
         id: 'bakery-app-concept',
-        number: 5,
+        number: 4,
         cover: bakeryMobile,
         title: 'Bakery Mobile App',
         cName: 'case-links',
-        tags: 'App Design · UX/UI',
+        tags: 'App Design',
         images: [
             {
                 image: app1,
@@ -458,55 +388,47 @@ export const projects = [
             }
         ]
 
-    },
-    {
-        id: 'gym-landing-page',
-        number: 6,
-        cover: laWeb,
-        title: 'LA Fitness Home Page',
-        cName: 'case-links',
-        tags: 'Web Design · UX/UI',
-        images: [
-            {
-                image: la1,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la2,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la3,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la4,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la5,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la6,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la7,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la8,
-                alt: 'gym landing study page'
-            },
-            {
-                image: la9,
-                alt: 'gym landing study page'
-            }
-        ]
     }
 ]
 
+export const dataProjects = [
+    {
+        id: 'chicago-housing-analysis',
+        title: 'Affordable Housing in Chicago',
+        subtitle: `Analyzing the geographic distribution and concentration of affordable housing across Chicago's community areas`,
+        cName: 'data-project-links',
+        images: [
+            {
+                image: ch1,
+                alt: 'affordable housing in chincago analysis cover'
+            },
+            {
+                image: ch2,
+                alt: 'chicago housing analysis objectives'
+            },
+            {
+                image: ch3,
+                alt: 'errors found in the dataset and what was cleaned'
+            },
+            {
+                image: ch4,
+                alt: 'results '
+            },
+            {
+                image: ch5,
+                alt: 'results'
+            },
+            {
+                image: ch6,
+                alt: 'source check for the top 10 areas'
+            },
+            {
+                image: ch7,
+                alt: 'next steps'
+            }
+        ]
+    },    
+]
 export const blenderWork = [
     {
         image: inner,
