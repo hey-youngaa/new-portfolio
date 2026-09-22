@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.673de7c1.css",
-    "main.js": "/static/js/main.8e9f91eb.js",
+    "main.css": "/static/css/main.a6b34646.css",
+    "main.js": "/static/js/main.9ad032eb.js",
     "static/media/webmock.gif": "/static/media/webmock.1d3935fb82827c2342ff.gif",
     "static/media/pearl.gif": "/static/media/pearl.709302908acc5a350dc6.gif",
     "static/media/wave.gif": "/static/media/wave.6b41a7db25e28306ace2.gif",
     "static/media/me.JPG": "/static/media/me.1fdaec1adfdcb4b76ec4.JPG",
     "static/media/cozyproto.gif": "/static/media/cozyproto.112dfbe5431875472647.gif",
+    "static/media/ch_01.png": "/static/media/ch_01.b8210d7f1d8a7240705a.png",
     "static/media/pinkAndGreen.gif": "/static/media/pinkAndGreen.e1f14c067ee0b4da6b3e.gif",
     "static/media/cs_09.png": "/static/media/cs_09.2ab938e052f9e719c386.png",
     "static/media/chrome.png": "/static/media/chrome.d738b2e0c621e5dd6310.png",
@@ -34,6 +35,7 @@
     "static/media/cat.png": "/static/media/cat.5c0c69dde15338cdc5b8.png",
     "static/media/webpdp.png": "/static/media/webpdp.759c4a9066c2a3f06647.png",
     "static/media/ht_09.png": "/static/media/ht_09.96f94fabae5949ee6d05.png",
+    "static/media/ch_06.png": "/static/media/ch_06.828f767dc9bc7da32c76.png",
     "static/media/webpersona.png": "/static/media/webpersona.91e289806d3a719527a5.png",
     "static/media/ht_010.png": "/static/media/ht_010.b0caa66d631f7c869672.png",
     "static/media/ht_06.png": "/static/media/ht_06.fb367956b8b39c3926da.png",
@@ -41,6 +43,7 @@
     "static/media/cs_015.png": "/static/media/cs_015.2f2f4fc5586512c279d1.png",
     "static/media/appperson1.jpg": "/static/media/appperson1.d6339fd9e45572adf28c.jpg",
     "static/media/catEye.svg": "/static/media/catEye.3c51bae8d0f3a89a71b33343fa7b0e25.svg",
+    "static/media/ch_02.png": "/static/media/ch_02.e476be9f3c7e5b7003d3.png",
     "static/media/choco.png": "/static/media/choco.0194b8036cc69aa5ba54.png",
     "static/media/webmap.png": "/static/media/webmap.648666d49427ee8be7ec.png",
     "static/media/appmap.jpg": "/static/media/appmap.cc87f5f65da58e0e7ad8.jpg",
@@ -57,14 +60,17 @@
     "static/media/cs_05.png": "/static/media/cs_05.7f44de52e05fc7ecb0bb.png",
     "static/media/cs_06.png": "/static/media/cs_06.c8926f1df3a74ddfd2fa.png",
     "static/media/ht_04.png": "/static/media/ht_04.3af6b0ac52dd2fa47e89.png",
+    "static/media/ch_07.png": "/static/media/ch_07.025909a98ba2486f904a.png",
     "static/media/ht_02.png": "/static/media/ht_02.95fea8804694684edc2a.png",
     "static/media/juneWork.jpeg": "/static/media/juneWork.a32182e5ce2208604b42.jpeg",
     "static/media/bakeryWeb.jpg": "/static/media/bakeryWeb.7a1f57f5a5f32d5e615a.jpg",
+    "static/media/ch_03.png": "/static/media/ch_03.77142938b3a9e1ad35f0.png",
     "static/media/brema.ttf": "/static/media/brema.69ebe8498c74a8a8bac0.ttf",
     "static/media/applofi2.jpg": "/static/media/applofi2.c3acdba31bbf13e2e74d.jpg",
     "static/media/ht_07.png": "/static/media/ht_07.d8d27166224f57abe0fc.png",
     "static/media/cs_018.png": "/static/media/cs_018.bdc0c480c4229082b188.png",
     "static/media/cs_04.png": "/static/media/cs_04.be494684819899443d6d.png",
+    "static/media/ch_04.png": "/static/media/ch_04.b27aa70c4d6427dced6d.png",
     "static/media/app2.jpg": "/static/media/app2.f7ed4aa7fa8c232ae9b3.jpg",
     "static/media/cs_07.png": "/static/media/cs_07.8849d503c97e3b1aca85.png",
     "static/media/ht.jpg": "/static/media/ht.5708d8c613bde29b7986.jpg",
@@ -74,16 +80,17 @@
     "static/media/cs_02.png": "/static/media/cs_02.fe92c333b8d396994587.png",
     "static/media/cs_016.png": "/static/media/cs_016.6ff8ace810b18141d3c4.png",
     "static/media/webia.png": "/static/media/webia.9702ba36c6bb848f942a.png",
+    "static/media/ch_05.png": "/static/media/ch_05.ca43f20182913d91d23b.png",
     "static/media/homeDecor.jpg": "/static/media/homeDecor.11f3b4d78cb8f466793f.jpg",
     "static/media/resume.pdf": "/static/media/resume.9a2338b8eff7b399203b.pdf",
     "index.html": "/index.html",
     "static/media/menu.svg": "/static/media/menu.b2a76f42b5d2c39de3585db9e2db46e3.svg",
     "static/media/arrow-up-right.svg": "/static/media/arrow-up-right.898619bd69d69ee2056a6cc0e1375089.svg",
-    "main.673de7c1.css.map": "/static/css/main.673de7c1.css.map",
-    "main.8e9f91eb.js.map": "/static/js/main.8e9f91eb.js.map"
+    "main.a6b34646.css.map": "/static/css/main.a6b34646.css.map",
+    "main.9ad032eb.js.map": "/static/js/main.9ad032eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.673de7c1.css",
-    "static/js/main.8e9f91eb.js"
+    "static/css/main.a6b34646.css",
+    "static/js/main.9ad032eb.js"
   ]
 }
