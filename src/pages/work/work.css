@@ -14,7 +14,7 @@
     width: 100%;
 }    
 
-.case-links{
+.case-links, .data-project-links{
     text-decoration: none;
 }
 
@@ -29,7 +29,14 @@
     padding-right: 4px;
 }
 
-.creativeSection h2{font-size: 3rem;}
+.dataAnalytics h2, .creativeSection h2{font-size: 3rem;}
+
+.dataProject{
+    display: flex;
+    flex-direction: column;
+}
+.dataProjectTitle{font-size: 1.5rem;}
+
 .creativeItem{max-width: 800px;}
 .creativeItem .imageWrapper{
     display: inline-block;

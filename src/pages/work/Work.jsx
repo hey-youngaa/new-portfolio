@@ -1,6 +1,6 @@
 import React from 'react'
 import './work.css'
-import { projects } from '../../assets/data/Data'
+import { projects, dataProjects } from '../../assets/data/Data'
 import june from '../../assets/images/juneWork.jpeg'
 
 import { Link } from 'react-router-dom'
@@ -26,6 +26,25 @@ function Work() {
         })}
       </div>
 
+
+      <div className='dataAnalytics'>
+        <h2>Data Analytics</h2>
+
+        <div className='dataProjects'>
+          {dataProjects.map((item) => {
+            return(
+              <div className="dataProject">
+                <Link to={`/${item.id}`} className={item.cName}>
+                  <h3 className='dataProjectTitle'>{item.title}</h3>
+                  <h4 className='dataProjectSub'>{item.subtitle}</h4>
+                </Link>
+              </div>
+            )
+          })}
+        </div>
+      </div>
+
+{/* Creative work includes live web design, graphics, 3d */}
       <div className="creativeSection">
         <h2>Creative Explorations</h2>
 
